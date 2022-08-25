@@ -1,0 +1,66 @@
+# Github Review & Opening Issues
+
+To maintain the quality of our site, we're going to help police each others' work. We'll use Github
+Issues to do this, just like open source projects do.
+
+The below instructions are for reviewing a partner's work.
+
+# Checking in-progress posts via pull requests
+
+Go to our [class repo's Pull Requests tab]({{ site.github_repo_url }}/pulls). Filter by your partner's name or find it in the list. Open Pull requests:
+- Should have a well-formatted pull request title
+- Should have well-formatted YAML header with the correct `author` (their github name) and `layout: post`
+- Should include the code or reflections specified in the exercise
+- Should be in a file that's in their subfolder, titled correctly.
+
+*Note: If you can't find their post on the people page, there's likely something wrong with their
+`author:` metadata field.  Look on the main posts page for the post.*
+
+If everything looks good, open a review and **Approve** the post. You may now merge it, which will add it to our site.
+
+If there are things that should be changed, **Request changes** and leave helpful comments about what can be fixed.
+
+This is it, the moment where you're talking with a partner about code. Be a good partner and help build our supportive community!
+
+
+The above instructions are for merging pull requests. Once they're merged, if all goes well, you should see the post on our site. You can check the [list of commits]({{ site.github_repo_url}}/commits) and make sure there's a green checkmark, indicating the changes have finished building. If they're not done yet, check again once they are.
+
+# Checking published posts, and opening issues if needed
+
+Use the [people page]({{ site.baseurl }}/people.html) to see what posts they have, and whether they're all there.
+
+- Each Post:
+    - Should have a well-formatted title
+    - Should display the author's github name
+    - Should be formatted like a post
+
+If any of these things are missing, [Open an Issue](https://help.github.com/articles/creating-an-issue/),
+no more than one issue per assignment.  Title it intelligibly, something like "@classmate's Turtle post title needs spaces".
+If there are multiple issues, you can be broader, like "Formatting issues with @classmate's Turtle post".
+In the issue, list the things that are missing. You can make checkboxes if needed like this:
+
+```
+- [ ] A checkbox item
+```
+
+Be helpful and let your partner know some details of how to fix the error.  [Here's](https://github.com/silshack/spring2016/issues/85)
+one I did in a previous class session that a student fixed.
+
+**@mention** your partner on the issue and **assign** them to the issue.
+
+# Handling Issues Assigned to You
+
+If your partner found an issue, no worries!  You have all the tools you need to fix it.  Using the class
+notes, how-to sections and/or assignments, fix the issue via a pull request.  In your pull request title or
+description, include the phrase "Fixes XX", where XX is the number of the issue.  This will create a
+link between your PR and the issue AND when the PR gets merged it will automatically close the issue.  Neat!
+
+In the beginning, issues won't count against you.  We're still gettting the hang of things.  If you have
+open issues from me or a classmate, learn why they happened and next time make sure to doublecheck those
+specific things.  A large part of being successful in programming is paying attention to details, which
+often just means slowing down and/or using internal checkists for yourself.
+
+But as the semester goes on, just like in a professional setting, creating extra work for your peers by
+doing low quality work will start to negatively impact my assessement of your work.  So think of these
+first issues as FYIs of the things you're still learning.  Soon you'll be expected to get all of this
+right every time so that we can focus on the content of your posts.
