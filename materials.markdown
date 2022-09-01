@@ -110,9 +110,9 @@ be completed by the date and time listed.  Class notes are for your reference of
             {% endif %}
         </td>
         <td>
-            {% assign canvas = true %}
-            {% if post.canvas == false %}
-                {% assign canvas = false %}
+            {% assign canvas = false %}
+            {% if post.canvas == true %}
+                {% assign canvas = true %}
             {% elsif post.categories contains "notes" %}
                 {% assign canvas = false %}
             {% elsif post.categories contains "how-to" %}

@@ -43,11 +43,10 @@ At the end of this course, students should:
 
 Students will be prepared to integrate these skills and knowledge with other iSchool courses in Databases, Web Development, User Experience and others.  Students will also be well versed in common tools and workflows used by developers and development teams.
 
-## Course Format: Hybrid
+## Course Format: In-person, with virtual components
 
-While originally taught in-person, this course is listed as a 'Hybrid' class, and will include both in-person and remote elements. In changing the modality of this class in response to the Covid pandemic, I have come to believe that a hybrid format offers great advantages over either entirely in-person or entirely remote modalities. You will gain valuable skills switching seamlessly between in-person and remote technical contexts, and gain confidence performing highly in either. This will benefit you greatly in future professional settings. We will also be able to gracefully transition to all-remote if circumstances so require. While students should be prepared to come to all in-person classes on the schedule, including the first day of class, I will endeavor to provide effective ways to participate remotely if any student becomes unable to attend due to illness.
+While originally taught in-person, this course will include both in-person and remote elements. In changing the modality of this class in response to the Covid pandemic, I have come to believe that a hybrid format offers great advantages over either entirely in-person or entirely remote modalities. You will gain valuable skills switching seamlessly between in-person and remote technical contexts, and gain confidence performing highly in either. This will benefit you greatly in future professional settings. We will also be able to gracefully transition to all-remote if circumstances so require. While students should be prepared to come to all in-person classes on the schedule, including the first day of class, I will endeavor to provide effective ways to participate remotely if any student becomes unable to attend due to illness.
 
-**Covid-19 Modifications** In general, collaborative exercises requiring students to be in close 'proximity' will happen remotely, utilizing Zoom breakout rooms and screensharing. In-person sessions will be dedicated to lectures, individual work, and class-wide discussion. While this regretably precludes the experience of in-person pair programming, I have found it to be an acceptable substitute and that students are well-prepared for future in-person and remote collaboration on code by the end of the course.
 
 ### Synchronous Design
 **For both in-person and remote classes, students should be available synchronously during the scheduled class times.** While the affordances of in-person interaction are ideal for learning to program collaboratively, we will utilize remote collaboration and communication tools to their fullest. Many courses will involve synchronous interaction with your peers, and other activities will utilize asynchronous tools. This mimics professional programming practice, which commonly involves a mix of both modes of collaboration.
@@ -88,7 +87,7 @@ These experiences will combine with class assignments, readings, and in-class ex
 
 **Readings:** Assigned readings, lectures, or exercises should be completed before the indicated class.  In most cases their content will be essential to completing the in-class exercises.  In technology we’ll often encounter terms or project names that we haven’t heard of before (myself included).  Students will be encouraged to keep track of new terms, research them, and bring them up in class.
 
-**Exercises (In-class and Take-Home):**  Like any skill, frequent practice is key to coding. Almost every class will feature exercises that build on assigned readings.  These assignments can be completed and submitted during class, or students can submit them before midnight if they need extra time after class.  Exercises may involve pair programming and I will circle through class to resolve any confusion and share important concepts with the group.  In addition to in-class exercises, there will be frequent assignments of exercises from our texts and larger project-style assignments. Submission instructions will be included with each assignment.  These in-class and take-home exercises are the largest component of your grade. **COVID-19 Modifications**: We will still utilize pair programming for some activities, but will be exploring technologies such as screen sharing since in-person collaboration in close proximity is not safe.
+**Exercises (In-class and Take-Home):**  Like any skill, frequent practice is key to coding. Almost every class will feature exercises that build on assigned readings.  These assignments can be completed and submitted during class, or students can submit them before midnight if they need extra time after class.  Exercises may involve pair programming and I will circle through class to resolve any confusion and share important concepts with the group.  In addition to in-class exercises, there will be frequent assignments of exercises from our texts and larger project-style assignments. Submission instructions will be included with each assignment.  These in-class and take-home exercises are the largest component of your grade. 
 
 **Website chat:** Our class website has a Gittr chat room available from the upper right of every page.  This is available for backchannel Q&A during class.  Participation in this chat will count as classroom participation.  Students are expected to conduct themselves in this room as they do during class, keeping content appropriate and relevant. <a href="#" class="js-gitter-toggle-chat-button">Click here to open the chat</a>
 
@@ -166,7 +165,7 @@ The policies and resources in this syllabus are designed to help all students th
 
 I will be available for office hours by appointment via video and/or text chat.  I will be free and on campus at least a couple afternoons each week.  Email me or grab me during class to schedule a time to talk.
 
-**COVID 19 Modifications:** While in-person office hours may be allowed depending on the University's current Level, I will be requiring virtual office hours during the pandemic, unless a student requires specific accommodations for a disability, in which case we'll follow University and School guidelines for in-person meetings. It's far easier for me to see your code via screenshare than from 6 feet away, so meeting virtually should not impact my ability to help you in most cases.
+**COVID 19 Modifications:** While in-person office hours may be allowed depending on the University's current Level, I will be requiring virtual office hours during the pandemic, unless a student requires specific accommodations for a disability, in which case we'll follow University and School guidelines for in-person meetings. 
 
 ## Student and Instructor Expectations
 
@@ -198,7 +197,7 @@ Finally, as mentioned above, the class room will be available during scheduled t
 
 ### Late Work
 
-In general, lateness is not tolerated in the professional world, and that's the same standard I’m holding you to.  Late work without prior approval will not be accepted.  Exceptions will be rare. Contact me as soon as you think you may have difficulty meeting a deadline with your rationale for an extension.  Turning work in early is good for all involved, for this class and your career beyond, so start early.
+Contact me as soon as you think you may have difficulty meeting a deadline with your rationale for an extension.  Turning work in early is good for all involved, for this class and your career beyond, so start early.
 
 If you experience any kind of emergency, take care of yourself first and let me know whenever you're able. In the absence of an emergency, contact me as soon as you think you might encounter problems with a due date.
 

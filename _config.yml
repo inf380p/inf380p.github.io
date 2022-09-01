@@ -45,8 +45,8 @@ python-extra-pages:
 permalink: none
 
 # If this gets archived at a different URL make sure to delete the blank statements at the bottom
-baseurl: /fall2021
-url: /fall2021
+baseurl: /fall2022
+url: /fall2022
 
 python: true
 

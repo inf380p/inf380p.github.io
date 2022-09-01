@@ -3,6 +3,7 @@ category: exercise
 inclass: true
 author: elliott
 layout: post
+canvas: false
 ---
 
 ## Custom Input for Turtles
