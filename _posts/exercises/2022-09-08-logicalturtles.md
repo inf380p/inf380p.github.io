@@ -3,11 +3,12 @@ layout: post
 author: elliott
 categories:
   - exercise
-title: Logical Turtles Exercises
+title: Logical Turtles Exercise
 inclass: true
+inprogress: true
 ---
 
-{% include prblurb %}
+{% include bringblurb %}
 ___
 
 Create a turtle program that uses **variables**, **conditionals**, **operators**, and **user input**.

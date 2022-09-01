@@ -3,12 +3,13 @@ author: elliott
 layout: post
 title: "2 Extra Videos on Turtle"
 categories: reading
+external: false
 ---
 
 
 # Video on Scope
 
-In these videos you can see men **make and recover from mistakes live**.  I tell myself that it's OK to
+In these videos you can see me **make and recover from mistakes live**.  I tell myself that it's OK to
 make mistakes- I'll just turn them into teaching moments for my students.  But for real we all encounter
 unexpected errors.  I that's one of the things bothering you, check out how I do it in these videos and
 see if my methods help.  THere are also several points when I write less code then I know I want and run
@@ -27,7 +28,7 @@ The code from the video:
 
 # Video on the Screen object
 
-Here's the video I recorded going over turtle's Screen more in depth.  It should complement the O'Reilly video well.
+Here's the video I recorded going over turtle's Screen more in depth.  
 
 <iframe src="https://player.vimeo.com/video/155346489?title=0&byline=0&portrait=0" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p>screen from <a href="https://vimeo.com/user13562683">Elliott Hauser</a> on <a href="https://vimeo.com">Vimeo</a>.</p>

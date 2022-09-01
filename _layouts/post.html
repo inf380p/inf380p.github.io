@@ -43,7 +43,9 @@ by
 
 
 <div class="post">
-    {% if post.inprogress != 'true' %}
+    {% if page.inprogress %}
+        <i>This course material not yet published.</i>
+    {% else %}
         {{ content }}
     {% endif %}
 </div>

@@ -5,11 +5,15 @@ categories:
   - exercise
   - how-to
 inclass: true
-title: Embed Trinkets into our Class Blog
+title: Embed Trinkets into a post on the class website
 canvas: false
+inprogress: true
 ---
 
 Use the instructions below to submit a post with your trinket embedded into it.
+
+**Replace `tommytester` with your author name, and the title with whatever you choose**
+
 
 ### Sharing your work
 
@@ -37,7 +41,7 @@ Then, paste the code into the text of your post.  At this point your post will l
 ---
 layout: post
 author: tommytester
-title: Tommy's Turtle Exercise
+title: "Tommy's Turtle Exercise"
 ---
 
 Here's the program I'm embedding:
@@ -47,7 +51,7 @@ Here's the program I'm embedding:
 
 ## Static code blocks
 
-Add at least two static code blocks to your post, containing excerpts from your embedded program.
+Add at least one static code block to your post, containing excerpts from your embedded program.
 
 If you want to display code that's not interactive (to talk about something you did, for instance), the cool grey boxes above come from telling Jekyll that we're about to write code using backticks: `
 
@@ -91,9 +95,5 @@ That code looks like this:
 
 ### Thoughts about the exercise
 
-Include a short reflection about why you selected the particular example that you did.
+Include a short reflection about why you selected the particular example that you did. Later reflections will be more in-depth; this is just a warm-up.
 
-When submitting exercises, always include reflections, roadblocks you ran into, or
-things you thought were cool. Always include links to example code if you use or are heavily influnced
-by someone else's work. They should be at least a paragraph or two. Regardless of length, the best ones give me a sense of what you did
-and why.

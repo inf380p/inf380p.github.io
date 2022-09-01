@@ -7,11 +7,6 @@ mode: Remote
 published: false
 ---
 
-# Q & A
-
-* Study session update
-* Moving midterm back to Nov 4th
-* REMOTE class next week
 
 # Pair Programming Review
 

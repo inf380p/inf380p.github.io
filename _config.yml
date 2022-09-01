@@ -16,6 +16,9 @@ gitter_room: inf380p/fall2022
 zoom_url: https://utexas.zoom.us/j/97495200087
 canvas_url: https://utexas.instructure.com/courses/1340523
 
+# Add Runestone course url if not using Canvas LTI
+runestone_course: https://runestone.academy/ns/books/published/inf380p2022/index.html
+
 plugins:
   - jemoji
 

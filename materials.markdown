@@ -121,13 +121,13 @@ be completed by the date and time listed.  Class notes are for your reference of
             {% assign external = true %}
             {% if canvas %}
                 {% assign link = site.canvas_url %}
+            {% elsif post.link %}
+                {% assign link = post.link %}
+            {% elsif post.categories contains "reading" and site.runestone_course and post.external != false %}
+                {% assign link = site.runestone_course %}
             {% else %}
-                {% if post.link %}
-                    {% assign link = post.link %}
-                {% else %}
-                    {% capture link %}{{ site.baseurl }}{{ post.url }}{% endcapture %}
-                    {% assign external = false %}
-                {% endif %}
+                {% capture link %}{{ site.baseurl }}{{ post.url }}{% endcapture %}
+                {% assign external = false %}
             {% endif %}
             <a href="{{ link }}" {% if external == true %} target="_blank"{% endif %}>{% if post.categories contains "notes" %} <b>{{ post.date | date: "%b %d" }} - {% endif %}{{ post.title }}{% if external == true %} &nbsp; <i class="fa fa-external-link" aria-hidden="true"></i> {% endif %} {% if post.categories contains "notes" %} </b> <span class="label round mode">{{ post.mode}}</span>{% endif %}</a>
         </td>

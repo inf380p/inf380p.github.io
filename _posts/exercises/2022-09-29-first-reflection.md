@@ -13,4 +13,8 @@ A good reflection involves thinking about your learning.  Metacognition is the f
 
 # Assignment
 
-Submit a well-formatted pull request to our class blog with a reflection on your learning experiences during the first in-class activites, readings, and exerciese.
+Submit a well-formatted pull request to our class blog with a reflection on your learning experiences during the first in-class activites, readings, and exercises.
+
+Include one or more embedded Trinkets to show off your work.
+
+Include one or more code blocks, using markdown, to write about specific pieces of code.

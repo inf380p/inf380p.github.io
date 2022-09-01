@@ -1,10 +1,11 @@
 ---
 layout: post
 author: elliott
-title: "Let's get functional"
+title: "Flow of Control with functions"
 category: notes
-published: false
-mode: "Remote"
+published: true
+inprogress: true
+mode: "In person"
 ---
 
 
@@ -44,6 +45,7 @@ These reflections were really really excellent. Nice work, crew! Some selected q
 * "I find that when I return to the material after a few hours or on the next day, things flow a little more smoothly."
 
 ## Self-awareness
+
 
 * "I learn best when I have access to an answer key or explanation of the problem."
 * "I _am_ worried by the speed of the instruction. We seem to be moving very fast and I wonder how things will look two months from now"

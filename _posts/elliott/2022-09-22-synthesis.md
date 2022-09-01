@@ -1,10 +1,11 @@
 ---
 author: elliott
 category: notes
-title: "Synthesis: Writing About Code"
+title: "Synthesis: Showing your code off and writing about it"
 layout: post
 mode: Remote
 published: false
+inprogress: true
 ---
 
 # Announcements

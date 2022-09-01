@@ -5,10 +5,11 @@ categories:
   - exercise
 title: Functional Turtles Exercise
 inclass: true
+inprogress: true
 ---
 
 
-{% include prblurb %}
+{% include bringblurb %}
 
 **Note: For this exercise, embed both the original program and your refactor of it in the post.** See
 below for instructions on duplicating your trinkets
@@ -45,7 +46,7 @@ def go_draw_circle(x, y, size):
     tina.pendown()
 ```
 
-**Don't make an entirely new trinket or dramatically expand on what your trinket does.** We'll do more of that later.
+**Don't make an entirely new trinket or dramatically expand on what your trinket does.** We'll do more of that later. Refactoring, technically, ends up with a program that does the exact same thing, just written more efficiently. In many cases, people also improve as they refactor, but keep that to a minimum this time. 
 
 # Trinket Duplication
 
