@@ -8,7 +8,11 @@ inprogress: true
 mode: "In person"
 ---
 
+* Logical turtles review
+* Functions
+* Refactoring
 
+{% comment %}
 # Announcements
 - What's in a reading assignment? (Arrow button/link at bottom of page screenshare)
 - Panopto tab on Canvas has class recordings
@@ -74,3 +78,4 @@ Lots of work for next week: start this week!
 Strings: we've been using them all along! But you'll read about all sorts of cool things they've been able to do that you didn't know about. Data types in Python can have **methods**, which are function-like things attached to types. So, all along, strings have been able to do things like `"some string".capitalize()`
 
 Files: A logical addition to strings, files are how we store stuff in secondary memory (the hard drive). Reading files most often produces, you guessed it, strings.
+{% endcomment %}

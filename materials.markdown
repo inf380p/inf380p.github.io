@@ -136,7 +136,9 @@ be completed by the date and time listed.  Class notes are for your reference of
             {% else %}
             <span>
             {% comment %} Date addition: | date: "%s" | minus : 86400 {% endcomment %}
-                {% if post.categories contains "exercise" %}
+                {% if post.duedate == false %}
+                    Bring to next class
+                {% elsif post.categories contains "exercise" %}
                     {% if post.inclass == true %}
                       {{ post.date | date: "%a, %b %d, %Y" }} by midnight
                     {% else %}

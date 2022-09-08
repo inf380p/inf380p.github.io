@@ -5,11 +5,13 @@ categories:
   - exercise
 title: Logical Turtles Exercise
 inclass: true
-inprogress: true
+duedate: false
+inprogress: false
 ---
 
 {% include bringblurb %}
-___
+
+
 
 Create a turtle program that uses **variables**, **conditionals**, **operators**, and **user input**.
 

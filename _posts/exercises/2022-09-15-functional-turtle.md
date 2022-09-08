@@ -5,6 +5,7 @@ categories:
   - exercise
 title: Functional Turtles Exercise
 inclass: true
+duedate: false
 inprogress: true
 ---
 
@@ -13,15 +14,17 @@ inprogress: true
 
 **Note: For this exercise, embed both the original program and your refactor of it in the post.** See
 below for instructions on duplicating your trinkets
+
 ___
+
 
 Choose a previous Turtle program you've made and **refactor** it to use at least two custom **functions**
 (i.e. made by you using the `def` keyword, not built-in).
 At least one of these functions should take **arguments** and at least one should **return** something.
 
-For bonus karma points, use some functions you have to **import** from the `random` or `math` modules.
+For bonus (karma/style) points, use some functions you have to **import** from the `random` or `math` modules.
 
-WHen choosing a turtle program, one that has lots of repetitive code with slight variations is a
+When choosing a turtle program, one that has lots of repetitive code with slight variations is a
 good candidate.  For instance, a program that goes to many x,y coordinates and draws a circle
 would be a good fit to get re-written using this function:
 

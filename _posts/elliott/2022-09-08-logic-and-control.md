@@ -3,13 +3,16 @@ layout: post
 category: notes
 title: "Flow of Control with logic and data types"
 author: elliott
-inprogress: true
-mode: In person
+inprogress: false
+mode: Remote (illness)
 ---
 
 # Part I: Intro
 
 ## Announcements
+
+* I had to make class remote this week unexpectedly. Apologies!
+* I hope to have about an hour with you before I have to play Dr. Dad
 
 ![Don't panic]({{site.baseurl}}/img/dontpanic.jpg)
 
@@ -47,4 +50,10 @@ In class, we're going to add conditionals to a turtle program.
 
 # Reading
 
-Chapter 4 will teach you more about conditionals! Feel free to try out some of what you learn in your Logical Turtles trinket.
+Your next reading, Chapter 4, will teach you more about conditionals! Feel free to try out some of what you learn in your Logical Turtles trinket, which you'll bring, and we'll discuss, next week.
+
+# Breakout discussion
+
+Using the Custom Turtle program you brought, discuss your process with your partner. Work on improving your code together.
+
+Afterwards, you may get started on your Logical Turtles program, which you will *bring to class*.

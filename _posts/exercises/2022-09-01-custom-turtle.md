@@ -4,6 +4,7 @@ inclass: true
 author: elliott
 layout: post
 canvas: false
+duedate: false
 ---
 
 ## Custom Input for Turtles
