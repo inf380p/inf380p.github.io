@@ -4,7 +4,7 @@ category: notes
 title: "Flow of Control with logic and data types"
 author: elliott
 inprogress: false
-mode: Remote (illness)
+mode: Cancelled
 ---
 
 # Part I: Intro

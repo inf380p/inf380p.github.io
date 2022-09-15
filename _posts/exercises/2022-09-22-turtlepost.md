@@ -5,7 +5,7 @@ categories:
   - exercise
   - how-to
 inclass: true
-title: Embed Trinkets into a post on the class website
+title: Embed Trinkets & your so-far reflection into a post on the class website
 canvas: false
 inprogress: true
 ---

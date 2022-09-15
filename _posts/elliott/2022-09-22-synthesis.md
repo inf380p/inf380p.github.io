@@ -4,7 +4,7 @@ category: notes
 title: "Synthesis: Showing your code off and writing about it"
 layout: post
 mode: Remote
-published: false
+published: true
 inprogress: true
 ---
 
@@ -55,7 +55,7 @@ Let's check out Tommy Tester's example post.
 
 # Next week & beyond
 
-You'll read about the `turtle` module, and learn about using `Turtle` objects. Your homework is to create two turtle trinkets and a reflection (off of Github). We'll review how to make posts together during class, and you'll add information about yourself to the class website as well.
+You'll see some videos about the `turtle` module, and learn about using `Turtle` objects.
 
 There's a reading on Markdown, which will help you format your posts. Treat it as a reference.
 

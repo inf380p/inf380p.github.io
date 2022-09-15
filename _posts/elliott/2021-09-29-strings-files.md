@@ -2,10 +2,13 @@
 layout: post
 author: elliott
 category: notes
-title: "Strings & Files"
+title: "Functions. Intro to Strings & Files"
 mode: Remote
 published: false
+inprogress: true
 ---
+
+* Functions/refactor review
 
 # Announcements
 

@@ -4,6 +4,7 @@ author: elliott
 categories:
   - exercise
 title: Clicky Turtlehack
+inprogress: true
 ---
 
 {% include prblurb %}
@@ -54,6 +55,16 @@ often the screen updates and fix the zigzag artifacts.
 * Add your own new module (i.e. `mymodule.py`) and `import` something from it.
 You could even put your clicky function there to keep your code clean and readable.
 * Read ahead on **dictionaries** and use some of these in your code.
+
+
+# Ideas
+
+You could make:
+
+* A drawing program
+* A treasure hunt game: 'hide' a treasure at an X, Y coordinate, and tell the user whether they're hot and cold as they move the turtle. 
+* An animation that waits for a user's interaction to continue
+* Multiple turtles that have different clicky functions!
 
 ## Starter Code
 

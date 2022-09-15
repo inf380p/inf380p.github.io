@@ -1,81 +1,121 @@
 ---
 layout: post
 author: elliott
-title: "Flow of Control with functions"
+title: "Flow of Control with function (+ catch up)"
 category: notes
 published: true
-inprogress: true
+inprogress: false
 mode: "In person"
 ---
 
+Catch-up! It might feel like we're "Behind". Don't worry: I give you the chance to go over things again and again. And I repeat things. That's critical for learning and so that's why we do it!
+
+Outline of today's aspiration.
+
+* Textbook check-in: How's it been for you?
+* Variables
+
+
+* Debugging
 * Logical turtles review
-* Functions
-* Refactoring
+* Conditionals
+ 
 
-{% comment %}
-# Announcements
-- What's in a reading assignment? (Arrow button/link at bottom of page screenshare)
-- Panopto tab on Canvas has class recordings
-- Please access your Runestone exercises from Canvas
-- Special Cultural immersion opportunity: ["Technically Wrong" discussion group](https://docs.google.com/forms/d/e/1FAIpQLSegpjPecrguyeslYPy6CZOP9GZsH9Ca4qjiZCcE8P6mfBSrbA/viewform). Contact me *first* if you'd like this to be your cultural immersion activity instead of a programming meetup. It will be significantly more work, but has the potential to be an even more valuable change to experience and analyze cultures of computing and technology.
+* Approx 2:10pm: Functions Preview
+* Flow of Control
+* Refactoring: Functional Turtle
 
-# Vocab and Q&A
-- "high-level" as vocab word & cultural token
-- "stack" in programming languages, and systems.
-- Others?
+By around 2:10 I'd like to be onto the functions preview. and hopefully help you refactor some Turtle before class ends. *Anything we don't get to, go through as part of your homework*.
 
-# First reflection
+<h2><span>Variables</span></h2>
+<p><span>This is a console:</span></p>
+<p><iframe title="embedded content" src="https://trinket.io/embed/python/b7c6c3a9f3?toggleCode=true&amp;runOption=console&amp;start=result&amp;runMode=console" width="100%" height="600" allowfullscreen="allowfullscreen"></iframe></p>
+<p><span>It&nbsp;<strong>reads</strong>, <strong>evaluates</strong> and&nbsp;<strong>prints</strong> any expression you type in. In programming generally this is also called a read, evaluate, print loop, or REPL.</span></p>
+<p><span>The <code>&gt;&gt;&gt;&gt;</code> is what Python shows at its default prompt. So now you know, if you see this in examples online, they're describing what would happen if you were to enter this into a REPL.&nbsp;<em>Aside: If you've ever used Python in a&nbsp;<strong>notebook</strong> this is also what happens: results are printed automatically. This leads to confusion about&nbsp;<strong>Flow of Control</strong>, which is why we won't use notebooks in this class.&nbsp;</em></span></p>
+<h3>Let's Code, Shall We?</h3>
+<p><span>Let's dive into an apparently simple problem:</span></p>
+<p><iframe title="embedded content" src="https://trinket.io/embed/python/b433ddd080" width="100%" height="600" allowfullscreen="allowfullscreen"></iframe></p>
+<p><span>OK let's debug some code. There are at least 3 things wrong with this program. Let me tell you what it should do, and let's identify the errors, categorize them as logical or semantic, and fix the code to do what I told you it would do.</span></p>
+<p><span>Along the way let's figure out how to make debugging faster by commenting out the input statements.</span></p>
+<p style="padding-left: 40px;"><span>Write code below to get at least 3 values from the user using the&nbsp;<code class="docutils literal notranslate"><span class="pre">input</span></code>&nbsp;function and output a mad lib (which will use the input to tell a silly story).</span></p>
+<p><iframe title="embedded content" src="https://trinket.io/embed/python/da29ee603b" width="100%" height="600" allowfullscreen="allowfullscreen"></iframe></p>
+<h3><span>Hello, Data Types</span></h3>
+<p><span>Chapter 2 is an initial encounter with <strong>Data Types</strong>.&nbsp;<em>Strings</em> are text characters, surrounded by single or double quotations.&nbsp;<em>Integers</em> are numerals.&nbsp;<em>Floats</em> are numerals with a decimal point. In Chapter 4 you'll learn about&nbsp;<em>Boolean</em> data, which is either <code>True</code> or <code>False</code>. These are the core Python&nbsp;<strong>Data Types</strong> we'll be working with, and each has important uses, capabilities, and limitations.&nbsp;<em>Strings</em> are particularly important, so much so that there's a whole chapter on them later this semester.</span></p>
+<h2>Problem Solving</h2>
+<p>The <a class="inline_disabled" href="https://utexas.instructure.com/courses/1325008/pages/your-starting-problem-solving-toolkit" target="_blank" rel="noopener" data-api-endpoint="https://utexas.instructure.com/api/v1/courses/1325008/pages/your-starting-problem-solving-toolkit" data-api-returntype="Page"><span>Problem Solving Toolkit</span></a> is now ready for you to look over. Let's skim it briefly, and I'll include it alongside the next reflection for your reference. Each of these items is something that you might try out and/or reflect upon in future assignments, and are a starting menu of options for what will eventually go in your Personal Coding Manual.</p>
+<h2><span>Conditionals</span></h2>
+<p>Here's a series of examples that give you an initial framework to start with, and demonstrate how crafting and running slightly different examples can help you learn.</p>
+<p><strong>If</strong></p>
+<pre>num = 2<br /><br />if num &gt; 0:<br />  print("Greater than 0")<br />if num &gt; 1:<br />  print("Greater than 1")<br />if num &gt; 2:<br />  print("Greater than 2")</pre>
+<p>How many of these things print? <strong>Why?</strong></p>
+<p><strong>Else If</strong></p>
+<pre>num = 2<br /><br />if num &gt; 0:<br />  print("Greater than 0")<br />elif num &gt; 1:<br />  print("Greater than 1")<br />elif num &gt; 2:<br />print("Greater than 2")</pre>
+<p>How many of these things print? <strong>Why?</strong></p>
+<p><strong>Else if again</strong></p>
+<pre>num = -2<br /><br />if num &gt; 0:<br />  print("Greater than 0")<br />elif num &gt; 1:<br />  print("Greater than 1")<br />elif num &gt; 2:<br />print("Greater than 2")</pre>
+<p>How many of these things print? <strong>Why?</strong></p>
+<p><strong>Else</strong></p>
+<pre>num = -2<br /><br />if num &gt; 0:<br />  print("Greater than 0")<br />elif num &gt; 1:<br />  print("Greater than 1")<br />elif num &gt; 2:<br />  print("Greater than 2")<br />else:<br />  print("Not greater than 0, 1, or 2")</pre>
+<p>How many of these things print? <strong>Why?</strong></p>
+<p>These are the kinds of experiments you might set up for yourself when you're&nbsp;<strong>asking Python questions in Python code.</strong></p>
+<h3>Flow of Control!</h3>
+<p>Conditionals are great, but can get complex fast when they're&nbsp;<strong>chained</strong> and&nbsp;<strong>nested</strong>. This is our first introduction to&nbsp;<strong>Flow of Control</strong>, which is a fancy way of saying "what's Python doing now? why?"</p>
+<p>Much more about this, but pay attention to what Python's doing, and why, throughout this chapter. Conditionals are a core feature that help us modulate what python's doing.</p>
+<h3>Recommended Skill: Read First</h3>
+<p><strong>I highly recommend practicing your code Reading skills on this chapter. </strong>Go line by line, trying to figure out what Python is doing there. In doing that, you're starting to get practice internalizing Flow of Control through understanding conditionals. You'll notice that order of conditionals can matter a lot, as will whether there's an <code>else</code> statement ensuring that&nbsp;<em>something</em> will happen even if all the conditional statements return <code>False</code></p>
 
-Know where you are and how you're feeling, then take action.
+<h2>Conditionals, Booleans, and Flow of Control</h2>
 
-These reflections were really really excellent. Nice work, crew! Some selected quotes follow.
+Boolean values are very simple but very powerful.  There are tons of useful ways to
+construct **expressions** that evaluate to `True` or `False` in Python, and we use these
+to change the behavior of our program.
 
-## Knowledge (lightbulbs)
+Basic `if` statements act as 'gates' to control whether blocks of code get executed.
+`elif` and `else` statements enhance this control.
 
-* "My lightbulb moment was when the book discussed and provided the below chart for the keywords that are used in Python. When I saw this, I felt like I had to screenshot it as it validated for me that there was no such thing as people being predisposed to knowing Python, it was something that I could learn also! Because this gap in knowledge was filled, I was no longer intimidated by the content because it felt like with this out of the way, everything else was easier."
-* "The "lightbulb" moments really came when I had a study session with a classmate, where we went though the activities and talked about where we each felt some confusion. Almost everything she had trouble with, I was able to explain to her, and vice versa. Not only did talking someone else through the process (like pair programming) really cement my understanding, it really helps to have another person's perspective and reasoning on tricky problems."
+Some specific concepts to understand:
 
-## Attitudes (feelings)
+* *Truithiness*: Everything can be evaluated to either true or false. Most things are true.
+* *`try` and `except`*: expecting exceptions (also known as 'errors') in your code. This is *super helpful* for user input. Compare:
 
-* "One aspect of coding that I feel encouraged by is that there are wrong answers but there is not necessarily one, set, right answer"
-* "As someone who spent a lot of their undergraduate years writing papers, I am approaching coding in a similar fashion. I have never written a paper with zero errors on the first try so why should my coding be the same at this point?"
-* "One thing that I need to remind myself about learning code is that it is learning a new language....I have to consistently remind myself to have patience and to continue practicing."
+<iframe src="https://trinket.io/embed/python3/5cc539fe20" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-## Skills (actions)
+...with:
 
-* "I am setting goals for myself in the next few weeks. I intend to continue to devote time to understanding the practice problems assigned each week. I also will continue to work on being patient when errors are made, to reflect on why they were made, and to accept that this is going to be a continuous learning process. In class, I would like to participate more as I become more confident in my programming. I am looking forward to the group work and collaborating with others and learning from them. Overall, I am proud of myself for taking this course and trying to learn a subject that had previously intimidated me."
-* "The method that has helped me best in learning has been taking notes systematically for each section per chapter (e.g., 2.1, 2.2, 2.3) in the assigned reading. Taking notes for important terms/concepts, and noting key takeaways from the mini-exercises has helped me in retaining a lot of the information presented."
-* "One tool that I have been using to help learn all of this new vocabulary has been a continuous glossary. I found that by copying the end-of-chapter glossaries, in addition to other keywords discussed in the chapter, I can have a quick and easy reference for when I encounter a confusing but familiar word while doing the exercises."
-* "I find that when I return to the material after a few hours or on the next day, things flow a little more smoothly."
+<iframe src="https://trinket.io/embed/python3/8333113d87" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-## Self-awareness
+* *Flow of Control*: Python does things in a specific order. Sometimes it'll not execute some code, and any *runtime errors* in that code won't appear until or unless it does.
+ 
+<h2>Flow of Control: What's Python Doing, and Why?</h2>
+<p>Some chapter concepts:</p>
+<ul>
+    <li><strong>Boolean Expressions.</strong> They evaluate to <code>True</code> or <code>False</code></li>
+    <li><strong>Logical Operators. </strong>Specify how to turn<strong> data types </strong>of various kinds into<strong>&nbsp;</strong><code>True</code> or <code>False</code>.&nbsp;</li>
+    <li>Execution types:
+        <ul>
+            <li>Conditional: only <code>if</code></li>
+            <li>Alternative: this or that</li>
+            <li>Chained: do one thing (<code>if</code>, followed by zero or more <code>elifs</code>, and an <code>else</code>), or do one or zero things (no <code>else</code>)</li>
+            <li>Nested: layers of conditions</li>
+        </ul>
+    </li>
+    <li><strong>Exceptions</strong>
+        <ul>
+            <li>One way to say to Python "I know an error might happen here. If so, do this instead of what you normally do"</li>
+        </ul>
+    </li>
+    <li>Understanding order of evaluation matters: 'short-circuiting'</li>
+</ul>
 
-
-* "I learn best when I have access to an answer key or explanation of the problem."
-* "I _am_ worried by the speed of the instruction. We seem to be moving very fast and I wonder how things will look two months from now"
-* "I tend to veer on the side of just wanting to learn the bare minimum so I can perform a task, rather than taking the time to think through the concepts and apply what I’ve learned to the hands on activities"
-
-# Agenda: 4 Pomodoros & A Wrap-up
-
-Pomodoro 1: Group warm up. Not graded, so go [straight there](https://runestone.academy/runestone/books/published/py4e-int/functions/func-group.html)
-
-
-Pomodoro 2: All together
-
-
-Pomodoro 3: Pairs
-
-
-Pomodoro 4: All together
-
-# Wrap-up
-Lots of work for next week: start this week!
-
-- You told me in your reflections that the exercises were helpful to test what you've just read. So I've added some back into the readings.
-- They will be graded for interaction, but you're doing the ones with answers. Try them first, and use the answers to learn. The only person you can cheat is yourself if you skip ahead to the answers.
-- There are both ActiveCode and Parsons versions to the mixed up code questions. For extra challenge, do some or all from scratch using the ActiveCode version.
-
-Strings: we've been using them all along! But you'll read about all sorts of cool things they've been able to do that you didn't know about. Data types in Python can have **methods**, which are function-like things attached to types. So, all along, strings have been able to do things like `"some string".capitalize()`
-
-Files: A logical addition to strings, files are how we store stuff in secondary memory (the hard drive). Reading files most often produces, you guessed it, strings.
-{% endcomment %}
+<h2>Functions: Repeatable Units of Modifiable Code</h2>
+<p>Functions are awesome!</p>
+<p>So awesome, in fact, that we'll touch on them throughout the rest of class, including the next several weeks.</p>
+<p>So far, most of our code has been all the way to the left, unindented. if statements have indented blocks: that's the first instance we've seen of code being&nbsp;<em>inside</em> other code.&nbsp;</p>
+<p>Conditionals&nbsp;<em>maybe</em> execute the code inside them. Functions use the code inside them in a different way:</p>
+<ul>
+    <li>Function <strong>definitions</strong> tell Python to remember code for later. <em>Nothing else is done when a function is defined</em>.</li>
+    <li>Function <strong>calls</strong> tell python to go execute the code in the function.</li>
+    <li>Functions can be defined such that Python is expecting some extra information,&nbsp;<strong>arguments</strong>, when you call them. These arguments can change the behavior of the function when you call it different ways. Or, they can be defined to not need any kind of input.</li>
+    <li>Functions can de defined to <code>return</code> something. If they do, nothing else will happen unless that&nbsp;<strong>return value</strong> is stored or computed upon.</li>
+</ul>
+<p>Functions are a fundamental concept in programming, and a powerful tool for making programs do cool stuff.</p>

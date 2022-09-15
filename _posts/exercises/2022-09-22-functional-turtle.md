@@ -4,9 +4,9 @@ author: elliott
 categories:
   - exercise
 title: Functional Turtles Exercise
-inclass: true
+inclass: false
 duedate: false
-inprogress: true
+inprogress: false
 ---
 
 
@@ -49,7 +49,7 @@ def go_draw_circle(x, y, size):
     tina.pendown()
 ```
 
-**Don't make an entirely new trinket or dramatically expand on what your trinket does.** We'll do more of that later. Refactoring, technically, ends up with a program that does the exact same thing, just written more efficiently. In many cases, people also improve as they refactor, but keep that to a minimum this time. 
+**Don't make an entirely new trinket from scratch. If there comes a point when you want to dramatically expand on what your trinket does, Make a Copy of your trinket so that you have your refactored turtle and anything you did to it afterwards..** We'll do more of that later. Refactoring, technically, ends up with a program that does the exact same thing, just written more efficiently. In many cases, people also improve as they refactor, but keep that to a minimum this time. Or, if you get excited about your newfound powers, make sure to save a copy after the refactor. 
 
 # Trinket Duplication
 
@@ -57,3 +57,4 @@ In trinket, you can **Duplicate** the trinket you want to refactor using the Dup
 
 ![Imgur](http://i.imgur.com/cIvqDkk.png)
 
+You can also copy and paste code, and use the Share button to get new links.
