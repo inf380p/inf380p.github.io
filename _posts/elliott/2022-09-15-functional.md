@@ -39,10 +39,7 @@ By around 2:10 I'd like to be onto the functions preview. and hopefully help you
 <p><span>Along the way let's figure out how to make debugging faster by commenting out the input statements.</span></p>
 <p style="padding-left: 40px;"><span>Write code below to get at least 3 values from the user using the&nbsp;<code class="docutils literal notranslate"><span class="pre">input</span></code>&nbsp;function and output a mad lib (which will use the input to tell a silly story).</span></p>
 <p><iframe title="embedded content" src="https://trinket.io/embed/python/da29ee603b" width="100%" height="600" allowfullscreen="allowfullscreen"></iframe></p>
-<h3><span>Hello, Data Types</span></h3>
-<p><span>Chapter 2 is an initial encounter with <strong>Data Types</strong>.&nbsp;<em>Strings</em> are text characters, surrounded by single or double quotations.&nbsp;<em>Integers</em> are numerals.&nbsp;<em>Floats</em> are numerals with a decimal point. In Chapter 4 you'll learn about&nbsp;<em>Boolean</em> data, which is either <code>True</code> or <code>False</code>. These are the core Python&nbsp;<strong>Data Types</strong> we'll be working with, and each has important uses, capabilities, and limitations.&nbsp;<em>Strings</em> are particularly important, so much so that there's a whole chapter on them later this semester.</span></p>
-<h2>Problem Solving</h2>
-<p>The <a class="inline_disabled" href="https://utexas.instructure.com/courses/1325008/pages/your-starting-problem-solving-toolkit" target="_blank" rel="noopener" data-api-endpoint="https://utexas.instructure.com/api/v1/courses/1325008/pages/your-starting-problem-solving-toolkit" data-api-returntype="Page"><span>Problem Solving Toolkit</span></a> is now ready for you to look over. Let's skim it briefly, and I'll include it alongside the next reflection for your reference. Each of these items is something that you might try out and/or reflect upon in future assignments, and are a starting menu of options for what will eventually go in your Personal Coding Manual.</p>
+
 <h2><span>Conditionals</span></h2>
 <p>Here's a series of examples that give you an initial framework to start with, and demonstrate how crafting and running slightly different examples can help you learn.</p>
 <p><strong>If</strong></p>
