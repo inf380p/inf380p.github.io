@@ -39,3 +39,5 @@ def draw_star(turtle, color, size, x, y):
   turtle.end_fill()
   turtle.setheading(0)
 ```
+
+I edited this post after the fact. Sweet!
