@@ -1,6 +1,6 @@
 ---
 layout: post
-author: <unixEnthusiast>
+author: unixEnthusiast
 title: "unixEnthusiast's first post!"
 ---
 
