@@ -36,12 +36,12 @@ turtle.write("You win!", font = ("Arial", 30), align = "center")
 ```
 **What’s still fuzzy for you? What will you do to make sure you can resolve your fuzziness?**
 Example:
-<iframe src="https://trinket.io/embed/python/ae82180497" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+    <iframe src="https://trinket.io/embed/python/baa7b987bc" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 I wanted to pause Tina after she restates the order, this would allow the user to read the message, then produce a user input request (eventually a clickable response)  where the user confirms their order. 
 Then the next comment Tina makes would depend on the user response (“if” parameters). 
 I still don’t entirely understand how to pause Tina. I tried sleep and delay, but it slowed her and did not make her sit stagnant. I tried importing the sleep module from time like “Interactive Games” example on the Aug 25th Class Notes. I always get errors. hmmmm what am I doing wrong?
 I ended up commenting the section away two weeks ago and not looking at it again.
 
-**What problem solving strategies have been working for you? Give an example.**
-Mostly trial and error, comparing my work to code examples from class, the textbook exercises, thinking in terms of the number scale/grid, being curious about what could be possible and how, Googling methods. 
+**What problem solving strategies have been working for you?**
+Mostly trial and error, comparing my work to code examples from class, the textbook exercises, being curious about what could be possible and how, and finally, just Googling. 
