@@ -16,6 +16,32 @@ published: false
 * What questions do you have?
 
 
+{% comment %}
+
+# Part 1: Dictionaries
+
+
+The [official Python documention on dictionaries](https://docs.python.org/3/library/stdtypes.html#typesmapping) is helpful - if you konw how to use it. Let's learn how to use it.
+
+# Dictionaries review
+
+<iframe src="https://trinket.io/embed/python3/7a57cec4a5" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+
+# Part 2: App Drafts & Milestones
+
+Would anyone volunteer to show what they have so for for their Drawing or Blackjack app?  The earlier stage, the better.  My goal is to help people get an idea of how to get started.
+
+# Milestones
+
+Think of these as 'tests.'  You may also want to make a To-do list, but milestones are things your program can do (capabilities) or things a user can do with it (abilities).  You may consider grouping to-dos by Milestones if you want.  In this case, milestones may turn into headings, with todos under them as checkboxes.
+
+Blackjack people: As I mentioned, starting with a Basic project, then duplicating it and adding in as many Advanced items as you can is a great way to go.  If you want, look up the rules to Blackjack and implement things that go beyond Prof. Gotz's assignment to make the game more fun.
+
+Remember **unicode** characters if you implement suits: ♠
+
+
+{% endcomment %}
 
 # Dictionaries
 

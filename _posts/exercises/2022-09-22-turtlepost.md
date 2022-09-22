@@ -7,7 +7,7 @@ categories:
 inclass: true
 title: Embed Trinkets & your so-far reflection into a post on the class website
 canvas: false
-inprogress: true
+inprogress: false
 ---
 
 Use the instructions below to submit a post with your trinket embedded into it.
@@ -15,7 +15,7 @@ Use the instructions below to submit a post with your trinket embedded into it.
 **Replace `tommytester` with your author name, and the title with whatever you choose**
 
 
-### Sharing your work
+## Writing about Code
 
 Programmers often need or want to share their work with others.  We're going to do that by making a
 jekyll post with our code, a screenshot of our picture, and any thoughts or reflections we have on
@@ -27,11 +27,21 @@ First you need a header:
 ---
 layout: post
 author: tommytester
-title: "Tommy's Turtle Exercise"
+title: "Tommy's Reflection on the Class So Far"
 ---
 </pre>
 
-Then, go to your Trinket programs and [follow the instructions here](https://docs.trinket.io/getting-started#/2-sharing-trinkets/embed-a-trinket)
+Then, under the hyphens, put the content of your post, and format it so that your interactive code and static code blocks will show up.
+
+### Reflection Text
+
+Include your pre-composed reflection on the class so far in the post. You can paste the text into github and click on the Preview pane to see what it will look like. From there, you'll need to do a little bit of reformatting.
+
+
+
+### Interactive Code
+
+To include embedded interactive trinkets in your post, go to your Trinket program(s) and [follow the instructions here](https://docs.trinket.io/getting-started#/2-sharing-trinkets/embed-a-trinket)
 to get the embed code.
 
 Then, paste the code into the text of your post.  At this point your post will look something like this:
@@ -41,7 +51,7 @@ Then, paste the code into the text of your post.  At this point your post will l
 ---
 layout: post
 author: tommytester
-title: "Tommy's Turtle Exercise"
+title: "Tommy's Reflection on the Class So Far"
 ---
 
 Here's the program I'm embedding:
@@ -93,7 +103,4 @@ That code looks like this:
 ![Turtle image](https://www.utexas.edu/sites/all/themes/utexas/img/general/logo.svg)
 
 
-### Thoughts about the exercise
-
-Include a short reflection about why you selected the particular example that you did. Later reflections will be more in-depth; this is just a warm-up.
 

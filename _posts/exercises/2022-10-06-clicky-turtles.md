@@ -4,16 +4,13 @@ author: elliott
 categories:
   - exercise
 title: Clicky Turtlehack
-inprogress: true
+inprogress: false
 ---
 
 {% include prblurb %}
 
 ___
 
-This is another open-ended turtlehack, but now you've got lots of tools in your
-toolkit.  Take the weekend code an awesome program.  Don't forget your Problem
-Solving Attitudes and Strategies!
 
 Write a turtle program that:
 
@@ -36,7 +33,6 @@ Option 2: Keys
 * Call a helper function in at least one of your click functions
 
 
-* Uses lists, loops, and string methods
 * Does one of the following:
   * Allows the user to make something creative interactively
   * Has a 'win' condition.  Make sure to give instructions!
@@ -54,7 +50,7 @@ in your clicky function.
 often the screen updates and fix the zigzag artifacts.
 * Add your own new module (i.e. `mymodule.py`) and `import` something from it.
 You could even put your clicky function there to keep your code clean and readable.
-* Read ahead on **dictionaries** and use some of these in your code.
+* Read ahead on **lists, loops, or dictionaries** and use some of these in your code.
 
 
 # Ideas
