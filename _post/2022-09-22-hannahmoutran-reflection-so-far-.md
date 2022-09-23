@@ -7,18 +7,20 @@ title: "Hannah's reflection on the class so far."
 I think the real lightbulb has been realizing that, most of the time, the error is caused by a punctuation mark that is missing or a capital letter or an extra space that means that Python doesn’t recognize what I am referring to.  That said, there was also the misunderstanding that I had of how to speed up my turtle. 
  
 Originally, I wrote this: 
+```
 turtle.speed (0)
-
+```
 That made it faster than it had been, but still slow as molasses.  
 
-The solution was to write this instead, using the name of my specific little turtle that I created: 
+The solution was to write this instead, using the name of my specific little turtle that I created (line 8): 
+```
 tina.speed (0) 
-
+```
 # Confusion I have experienced.  Did it help me learn? 
 I want to say no to this, because I wish that there were no confusion and I just learned in this very stress-free, one thing after the other manner.  However, yes, I am finding that when I run into problems, I do end up learning a lot.  As an example, in the beginning, I made every plank of the bookshelf by making a rectangle and filling it in.  It worked, but it was really hard to keep track of where I was in the screen grid, and also my turtle would sometimes end up turned the wrong way.  I ended up making a plank function, so that was easier and made it simpler to keep track of what way the turtle was turned.  
 
 ```
-#Here's my plank function  
+#Here's my plank function (line 12)   
 def plank (x=-150,y=150):
 	tina.penup ()
 	tina.goto (x,y)
@@ -37,7 +39,7 @@ def plank (x=-150,y=150):
 ```
 To make all the horizontal planks of my bookshelf now, all I need to write is this: 
 ```
-#here's my bookshelf
+#here's my bookshelf (line 29)
 plank (-150, 150)
 plank (-150,75)
 plank (-150,0)
@@ -46,7 +48,7 @@ plank (-150, -150)
 ```
 And now, to do all the vertical planks of my bookshelf (just the sides) all I have to do is change direction once, and call the planks again: 
 ```
-#direction change
+#direction change (line 35) 
 tina.left (90)
 plank (-150,-160)
 plank (140, -160)
@@ -57,17 +59,17 @@ tina.setheading (0)
 ```
 I use it at the end of the code where I give choices to call the flowerpot or cactus functions, so that no matter what is called, it goes back to facing east afterwards.  
 
-Here it is in my code: 
+Here it is in my code (line 401): 
 ```
 if whatplant == "cactus":
-	print cactus (70,76)
+	cactus (70,76)
 	tina.setheading (0)
 elif whatplant == "a cactus":
-	print cactus (70,76)
+	cactus (70,76)
 	tina.setheading (0)
 else: 
-	print flowerpot (70, 76)
-	print flowers (78, 138)
+	flowerpot (70, 76)
+	flowers (78, 138)
 	tina.setheading (0)
 ``` 
 So, yes, confusion has definitely been the impetus for learning. 
@@ -78,6 +80,8 @@ The concept of try/except is still tough for me.  I think practicing is the only
 # Problem solving strategies that have been working for me. 
 Looking things up online, trying a bunch of stuff, taking a break, asking my husband who is an app developer (last resort, but he is a good resource), and looking back at my notes.    
 
+# Here's my trinket in action: 
 
+<iframe src="https://trinket.io/embed/python/fe6c63a893" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ---
