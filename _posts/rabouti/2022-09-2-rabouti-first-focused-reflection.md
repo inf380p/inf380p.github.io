@@ -4,36 +4,58 @@ author: rabouti
 title: "Rabouti's first focused reflection"
 ---
 
-***Still editing***
 
-The first lightbulb that turned on for me in this class, Introduction to Programming, was actually on day one - when Dr. Hauser said, “You’ll never know Python, but you can gain fluency in Python.” Upon this class, I was a complete novice to all things code and program related. Nevertheless, I realized I didn’t have to know everything about Python to learn “how to Python.” I was under the impression that Python was something that could be learned in totality (which could not be more wrong). When I started looking at Python as a language that one would not/could not master in totality…. lightbulb. Moreover, his advice gave me more confidence to delve into the world of programming. I don’t feel like I have to know everything about Python, but I’m still intrigued and want to be as fluent as I possibly can be.
+My favorite part of this class is the unlimited amount of creative freedom that is encouraged. I loved the first day of class when we immediately jumped into editing/changing codes on the class website. I realized that coding had a lot of creative/artistic potential and that gaining fluency in Python was actually going to be more feasible (for myself to figure out/learn) than I anticipated. I've had a lot of fun exploring and strengthening my artistic abilities in tandem with gaining fluency in/experimenting with Python. 
 
-Personally, I’ve experienced a fair amount of confusion regarding chapter 5 – functions. There is so much to absorb and understand about this chapter. Due to my confusion, I took extra time reading and reviewing chapter 5 and committed myself to writing my own functions to obtain more hands-on practice which definitely helped me work through my confusion.
+It's been a real challenge trying to organize my random and chaotic thinking patterns to articulate the processes I went through while coding (i.e., the method to my madness). For example, I made my "random design" program (embedded below) during the first week of class and have been refactoring/perfecting it since then - given the new information and coding techniques we've built upon. 
 
-In addition to finding functions confusing, distinguishing and remembering all the terminology is slightly fuzzy for me. In order to resolve this fuzziness, I am going to review each chapter in the textbook and continually familiarize myself with new and old terms.
 
-To solve problems, I take the time to understand error messages and work backward from each error. For example, I made a user-interactive program that can tell you what your astrological sign is and which generation you belong to, and I specifically experienced difficulties getting the code to tell the user what their astrological sign is. I kept seeing the message “Syntax Error” - I then realized that I needed to put a colon after the function definition! Additionally, for other problems I’ve encountered while writing code, I carefully analyze the code I’ve written and refer to the textbook to check myself - and make changes accordingly.
+ <iframe src="https://trinket.io/embed/python/ac50ff4b89?outputOnly=true&runOption=run" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+ 
+ 
 
-Conclusively, I think the format of this course is genius. I’ve already recommended “Introduction to Programming” to several fellow “iSchoolers” because of how enjoyable and valuable this class is – it is perfect foundation for programming. I sincerely appreciate the creative freedom that is encouraged/promoted/allowed. This course has changed the trajectory of my career, and I am so grateful.
 
-Below I have provided three examples of code I have created and one static code block:
 
-Basics of Turtle, random/fun design:
+Since I was a complete novice upon being in this class, my "random design" simply started with me experimenting with the current level of fluency/information I had at my disposal/been exposed to. Hence, I experimented by changing the background color multiple times, creating designs with multiple circles (without loops), creating a design by stamping the turtle 8 times in a circular motion, and repetitively using other various methods (penup, pendown, forward, backward, left, right).  
 
-<iframe src="https://trinket.io/embed/python/ac50ff4b89?outputOnly=true&runOption=run" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-Before I refactored my random/fun design, I had 271 lines of code. After refactoring, there are now 132 lines of code. I am much happier with my code, but still think I could make it more organized and efficient.
+With my new and (slightly) more advanced status, I've incorporated functions and loops to make the main lines of code in my “random design” program more organized, efficient, and manageable. Each class session, we learn something valuable which has helped me continually pinpoint new, more efficient ways to refactor my “random design” program. For example, up until today (09/29), “arguments” have been fuzzy for me, and as a result the functions I’ve written were not as usable or efficient as they could be. Logically, I understood the purpose of arguments and parameters, but I wasn’t confident in how to appropriately incorporate them in my custom functions (which now makes me feel silly).  After the hands-on practice and visual guidance from class today, I instantly recognized what I needed to change about my functions in my “random” design" and how to appropriately utilize arguments to make my functions more generalizable. Which, in turn, has allowed for the use of the same function for repeating designs with varying parameters. Hence, I learned how to define more efficient and usable functions by diagnosing a fundamental misunderstanding on my end.  
 
-Below I have provided a function that I defined and used 3 times throughout my program:
+Below I have provided my original/less efficient function and my new/more efficient function: 
 
-# Look what I did here
-def draw_circle_loop():
-   for x in range(8):
-       tina.left(45)
-       tina.circle(100)
-draw_circle_loop()
-Logical Turtle, astrology and generation:
+ 
 
-<iframe src="https://trinket.io/embed/python/db632b643c?outputOnly=true&runOption=console" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-Logical Turtle, user interactive “Knock, Knock” joke:
+Less efficient function: 
 
-<iframe src="https://trinket.io/embed/python/e69a1a6a83" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+```
+ # Look what I did here
+ def draw_circle_loop():
+    for i in range(8):
+        tina.left(45)
+        tina.circle(100)
+ draw_circle_loop()
+ ```
+ 
+I only implemented this function 3 times throughout my program. Before I refactored my "random design" (the first time) with the use of this function, I had 271 lines of code. After utilizing this (less efficient) function, there were 132 lines of code.
+
+
+More efficient function: 
+
+```
+def draw_circle_loop(left_degrees = 45, circle_size = 50):
+  for i in range(8):
+      tina.left(left_degrees)
+      tina.circle(circle_size)
+      
+draw_circle_loop(left_degrees, circle_size)
+```
+
+I implemented my new function 5 times, and now there are only 119 lines of code - which is definitely progress. 
+
+
+Another challenge I’ve experienced in this class is using the readings/textbook to learn new techniques and concepts, for I’m a very visual and hands-on learner. While the readings are interactive, it’s still more beneficial for me to learn by seeing and doing (in-person), opposed to reading about “how to Python.” For example, my misunderstanding regarding functions and arguments was instantly resolved when I watched Dr. Hauser write a function with arguments (containing loops) today in-person. To resolve this issue, I’m going to make it my mission to incorporate more visuals and hands-on practice while reading the textbook (since this class has a flipped design) and utilizing the additional sources provided in the syllabus.
+
+
+I'm excited to learn more about designing games, learning how to effectively use modules and how to write reflectioins that better encapsulate my creative process while writing programs. 
+
+
+
