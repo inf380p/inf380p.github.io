@@ -1,7 +1,7 @@
 ---
 layout: post
 author: martsale
-title: Alexis's First Focused Reflection
+title: "Alexis's First Focused Reflection"
 ---
 # A Reflection On Using Logic In Code
 
