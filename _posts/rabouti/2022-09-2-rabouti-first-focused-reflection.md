@@ -41,6 +41,7 @@ I only implemented this function 3 times throughout my program. Before I refacto
 More efficient function: 
 
 ```
+#Look what I did here
 def draw_circle_loop(left_degrees = 45, circle_size = 50):
   for i in range(8):
       tina.left(left_degrees)
