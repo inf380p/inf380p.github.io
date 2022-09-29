@@ -1,7 +1,7 @@
 ---
 layout: post
-author: Jilie Zeng 
-title: Jilie's First Focused Reflection
+author: zengjilie
+title: "Jilie's First Focused Reflection"
 ---
 
 ## Goal:
