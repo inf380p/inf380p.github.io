@@ -1,6 +1,6 @@
 ---
 ## layout: post
-## author: <nathanstern93e>
+## author: nathanstern93
 ## title: "Nathan's first focused reflection"
 ---
   
