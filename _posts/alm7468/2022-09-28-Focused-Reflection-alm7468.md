@@ -1,3 +1,8 @@
+---
+layout: post
+author: alm7468
+title: April's Focused Reflection
+---
 Pre-Click Addition:
 <iframe src="https://trinket.io/embed/python/ae82180497" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>  
 
