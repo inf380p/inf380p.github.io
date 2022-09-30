@@ -1,7 +1,7 @@
 ---
 layout: post
 author: RosalindBradshaw
-title: Rosalind Bradshaw's First Focused Reflection
+title: "Rosalind Bradshaw's First Focused Reflection"
 ---
 
 
