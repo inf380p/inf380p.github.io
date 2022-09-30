@@ -55,6 +55,7 @@ I implemented my new function 5 times, and now there are only 119 lines of code 
 
 Another challenge I’ve experienced in this class is using the readings/textbook to learn new techniques and concepts, for I’m a very visual and hands-on learner. While the readings are interactive, it’s still more beneficial for me to learn by seeing and doing (in-person), opposed to reading about “how to Python.” For example, my misunderstanding regarding functions and arguments was instantly resolved when I watched Dr. Hauser write a function with arguments (containing loops) today in-person. To resolve this issue, I’m going to make it my mission to incorporate more visuals and hands-on practice while reading the textbook (since this class has a flipped design) and utilizing the additional resources provided in the syllabus.
 
+Additionally, I realized I spend too much time ruminating and need to take more advantage of retreating/letting things incubate. 
 
 I'm excited to learn more about designing games, learning how to effectively use modules and how to write reflectioins that better encapsulate my creative process while writing programs. 
 
