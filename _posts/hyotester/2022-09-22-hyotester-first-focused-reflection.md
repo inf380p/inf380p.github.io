@@ -15,7 +15,7 @@ You may be wondering that who invited to my birthday party. So, I used function 
 
 <iframe src="https://trinket.io/embed/python/4103681aad" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-#The loop / variable name 
+# User Input to Calculate Birth Year and Number of Friends
 
 ```python
 for name in ["Joe", "Amy", "Brad", "Angelina", "Zuki", "Thandi", "Paris"]:
@@ -52,7 +52,7 @@ print("You were born in " + str(birth_year) + " or " + str(birth_year - 1))
 
 ```
 
-#Creating a Cake with Topping and a Plate
+# Creating a Cake with Topping and a Plate
 
 ```python
 # initializing a variable for co-ordinating
