@@ -1,6 +1,6 @@
 ---
 layout: post
-author: <JULIIRA>
+author: JULIIRA
 title: "Clicky Turtle and Reflection"
 ---
 
