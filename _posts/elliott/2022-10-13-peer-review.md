@@ -2,9 +2,10 @@
 layout: post
 author: elliott
 category: notes
-title: "Treasure Turtles and Peer Review"
-mode: Remote
-published: false
+title: "Loops, Peer Review, Intro to Strings"
+mode: In person
+published: true
+inprogress: true
 ---
 
 Forthcoming

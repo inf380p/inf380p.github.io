@@ -2,9 +2,9 @@
 layout: post
 author: elliott
 category: notes
-title: "Functions. Intro to Strings & Files"
-mode: Remote
-published: false
+title: "Strings. Intro to Files"
+mode: In person
+published: true
 inprogress: true
 ---
 
