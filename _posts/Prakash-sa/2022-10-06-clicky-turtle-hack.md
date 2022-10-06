@@ -7,10 +7,7 @@ title: Clicky Turtle Hack
 
 It will ask for the input and make polygon with the turtle.
 
-
-<iframe src="https://trinket.io/pygame/565ae1e960" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
-https://trinket.io/pygame/565ae1e960
+<iframe src="https://trinket.io/embed/python3/c693a1e6d0" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
 ```
