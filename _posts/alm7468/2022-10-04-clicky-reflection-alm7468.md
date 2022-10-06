@@ -1,7 +1,7 @@
 ---
 layout: post
 author: alm7468
-title: “April’s Clicky Reflection”
+title: "April’s Clicky Reflection"
 ---
 
 I’m trying to do a simple I-Spy point-and-click game experience. 
