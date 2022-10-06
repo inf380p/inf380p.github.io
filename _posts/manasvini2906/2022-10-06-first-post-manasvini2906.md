@@ -1,6 +1,6 @@
 ---
 layout: post
-author: <yourgithubname>
+author: manasvini2906
 title: Manasvini's first post!"
 ---
 
