@@ -8,6 +8,7 @@ Here's the program I'm embedding:
 <iframe src="https://trinket.io/embed/python/6f833bb7d6" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Disclaimer: this code is not fully functioning yet and I would appreciate some help! :)
+Update: Professor Elliot helped me figure it out! Full game coming soon<3
 
 For my clicky turtle hack I decided I wanted to make a color guessing game in which the player can choose one of 8 colors. The program would then give the user 20 shades or tones of that color (the example you will see in my code is pink) alongside a one word hint that would help the user guess which shade of pink the program was thinking of. 
 
