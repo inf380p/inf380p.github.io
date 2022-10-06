@@ -1,3 +1,11 @@
+---
+layout: post
+author: atUtexas
+title: "Mountain Reflection and My clicky Turtles"
+----
+
+
+
 #New Projects
 I decided to create a mountain range. Surprisingly, this was an easy task for me. I understand now how coding relates to patterns, just like patters in music with certain etudes. I did use a loop for my triangles. I would like to also add a sky, sun and grass.  Here is my loop.
 ```
@@ -14,9 +22,11 @@ Another new project I would like to consider is a graph. I have been compiling s
 
 This week I found myself feeling frustrated with Chapter 5 exercises in our online book. I took a step back and will take a break for a few days before I go back to work on them.
 
-Additionally, I looked over Elliott’s videos on Vimeo. Im going to spend some time reviewing his videos to see if they are helpful for me.
+Additionally, I looked over Elliott’s videos on Vimeo. Im going to spend some time reviewing his videos to see if they are helpful to me.
 
 Here is my link to view the mountains:
-<iframe src="https://trinket.io/embed/python/e73dc6fa24" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/python/e73dc6fa24" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+See my clicky Turtles here https://trinket.io/python/e73dc6fa24
 
 Thanks for reading.
