@@ -127,3 +127,6 @@ There were a few things that bothered me as I worked through this code. And ther
 Initially, I wanted the game screen to be titled 'Snake Movement Game,' and I wanted the user to be able to select the screen size dimensions, but I couldn't do either. This was strange to me because I was calling the correct methods. When I attempted to use the title method, I received an error about an unknown attribute. And, for some reason, when I tried to change the screen size, my background color was reset to white. As a result, I had to comment this line out.
 
 Overall, developing this game was a fantastic learning experience, and it was also my first-ever python game, so I'm looking forward to more innovative and meaningful programming projects in the future.
+
+Here's the link to my trinket:
+<iframe src="https://trinket.io/embed/python/66aed09093" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
