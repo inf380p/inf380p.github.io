@@ -44,9 +44,9 @@ Here are the github names that
 
 ~~~
 # Pairs
-Stuks : Englandham
+Stuks : [Absent]
 Alm7468 : Mchakerautexas
-Nemothefish : Atutexas
+Englandham : Atutexas
 Manasvini2906 : Rabouti
 Zengjilie : Hyo9292
 Prakash-sa : Juliira
