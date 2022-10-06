@@ -25,7 +25,7 @@ sally.color("white")
 
 ```
 
-The next step was making the ‘clouds’ function, which needed x and y for arguments, because wherever the user clicks, those coordinates are where the cloud will begin to be drawn.  I put that over in the animations tab, and called it into the main tab at the top of the code: ‘from animations import clouds.’  Here’s the cloud function: 
+The next step was making the `clouds` function, which needed x and y for arguments, because wherever the user clicks, those coordinates are where the cloud will begin to be drawn.  I put that over in the animations tab, and called it into the main tab at the top of the code: `from animations import clouds`.  Here’s the cloud function: 
 
 ```
 def clouds (x,y):
