@@ -196,5 +196,4 @@ Okay, finally, here's the trinket with my current version. You can use the arrow
 keys or WASD to move, and clicking will roll and random color for Turtler. Have
 fun.
 
-...Or at least, you could, but I wrote the prototype on my home computer and it
-doesn't want to work in Trinket... So, I guess I'll be fixing that now.
+<iframe src="https://trinket.io/embed/python/2e445245ba" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
