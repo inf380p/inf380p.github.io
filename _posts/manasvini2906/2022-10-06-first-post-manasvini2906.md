@@ -1,7 +1,7 @@
 ---
 layout: post
 author: manasvini2906
-title: "Hangman!"
+title: "Hangman"
 ---
 
 Hi everyone ! 
@@ -19,7 +19,8 @@ The **best** part about this course would be my new found appreciation for de bu
   One problem stretegy that I have now incorporated in my coding journey, is to check for which kind of error I am facing, always checking for data types and whether there is compatibility throughout the code. I have also noticed that
   when stuck in a rut while coding, taking a walk helps gain your clarity! 
 
+
 I took inspiration from Hangman for this interactive code. I give credit to Michael Dawson, who had this idea before me!
 
 Code:
- <iframe src="https://trinket.io/embed/python/ffa70bbfa5" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/ea4e8910f1" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
