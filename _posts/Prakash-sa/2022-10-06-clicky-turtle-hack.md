@@ -8,6 +8,9 @@ title: Clicky Turtle Hack
 It will ask for the input and make polygon with the turtle.
 
 
+https://trinket.io/pygame/565ae1e960
+
+
 ```
 import turtle
 
@@ -38,3 +41,7 @@ while (side_number_1 > 0):
 
 chair.fill(False)
   ```
+  
+Prof. Elliot dectated the formula for the polygon in the last class so I create this tutle hack.
+
+Initially I face the problem to implement it but finally after lot of troubleshooting I have done it.
