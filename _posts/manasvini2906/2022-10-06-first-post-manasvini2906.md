@@ -1,7 +1,7 @@
 ---
 layout: post
 author: manasvini2906
-title: Manasvini's first post!"
+title: "Hangman!"
 ---
 
 Hi everyone ! 
@@ -19,42 +19,7 @@ The **best** part about this course would be my new found appreciation for de bu
   One problem stretegy that I have now incorporated in my coding journey, is to check for which kind of error I am facing, always checking for data types and whether there is compatibility throughout the code. I have also noticed that
   when stuck in a rut while coding, taking a walk helps gain your clarity! 
 
+I took inspiration from Hangman for this interactive code. I give credit to Michael Dawson, who had this idea before me!
 
-  ```
-  I recently used this if else statement to gauge if the number is positive or negative
-  
-num = float(input("Enter a number: "))
-if num >= 0:
-    if num == 0:
-        print("Zero")
-    else:
-        print("Positive number")
-else:
-    print("Negative number, get the row and drop it!")
-  
-  ```
-
-
-   ```
-  I understood (after all this time!) the significance of dot notation.
-  
-  
-import matplotlib.pyplot as plt
-#creating a new figure
-fig = plt.figure()
-#adding axes to the figure
-ax = fig.add_axes([0,0,1,1])
-crude_oil = [12, 17, 14, 15, 20, 27, 30, 38, 35, 30,28,15]
-plt.fill_between(np.arange(12), crude_oil ,
-                 color="skyblue", alpha=0.5)
-plt.plot(np.arange(12), crude_oil , color="black",
-         alpha=0.6, linewidth=2)
-plt.title('Year 2016')
-plt.tick_params(labelsize=12)
-plt.xticks(np.arange(12), np.arange(1,13))
-plt.xlabel('Month', size=12)
-plt.ylabel('crude-oil(in metric tonnes)', size=12)
-plt.ylim(bottom=0)
-plt.show()
-  
-  ```
+Code:
+ <iframe src="https://trinket.io/embed/python/ffa70bbfa5" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
