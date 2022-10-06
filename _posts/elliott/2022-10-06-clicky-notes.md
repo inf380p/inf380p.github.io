@@ -34,25 +34,14 @@ Then, in _new_ pairs, play with and discuss each other's work!
 
 **If you have changes requested on your other pull requests, address them during a break**
 
-# Part II: Group up & Make a Name For Yourself
 
-Our class website runs off of a config file.  Time to tell us who you are (or want to be known as).
 
-Reminder: your public activities in this class can be pseudonymous if you want them to be. You can, but don't have to, include personal information in your bio, display name, and links.
-
-First: let's have a demo!
-
-It's [here]({{ site.baseurl }}/exercise/make-a-name-for-yourself.html)
-
-Your groups are for you to help each other on this exercise.
-
-**If you have changes requested on your other pull requests, address them during a break**
-
-# Part III: Peer Reviewing
+# Part II: Peer Reviewing
 
 Time to review a *different* partner's program.
 
 Here are the github names that
+
 ~~~
 # Pairs
 Stuks : Englandham
@@ -70,10 +59,24 @@ Johncbmeyer : Shashwatj14
 Rosalindbradshaw : Greencouchpotato
 Iliekatz : Martsale
 Hannahmoutran : Unixenthusiast
-Jamesathrun : trio with above pair or substitute
+Jamesathrun => Amptex101
+Amptex101 => nemothefish260
+nemothefish260 => Jamesathrun
 ~~~
 
+
+# Part III: Group up & Make a Name For Yourself
+
+(Moved to next class)
+
+
 # Looking Ahead
+
+## Optional Feedback Form
+
+On the materials page or at [this link](https://docs.google.com/forms/d/e/1FAIpQLSczNMwnoX0ObUHGP1LcoB-UPmcheqaHfx668UUPWx4pWAggkw/viewform?usp=sf_link), for things you want me to know.
+
+## Return of the Textbook
 
 Textbook time! Chapter 6 is on **Loops**.
 

@@ -11,9 +11,20 @@ inprogress: true
 Forthcoming
 
 {% comment %}
-# Welcome to our new Teaching Assistant Misha Coleman
+# Part II: Group up & Make a Name For Yourself
 
-Misha has several years of professional programming experience, and has seen the benefits of a supportive technical community firsthand. We're lucky to have her!
+Our class website runs off of a config file.  Time to tell us who you are (or want to be known as).
+
+Reminder: your public activities in this class can be pseudonymous if you want them to be. You can, but don't have to, include personal information in your bio, display name, and links.
+
+First: let's have a demo!
+
+It's [here]({{ site.baseurl }}/exercise/make-a-name-for-yourself.html)
+
+Your groups are for you to help each other on this exercise.
+
+**If you have changes requested on your other pull requests, address them during a break**
+
 
 # Feedback Form
 
