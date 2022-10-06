@@ -1,6 +1,6 @@
 ---
 layout: post
-author: <amptex101>
+author: amptex101
 title: "Allison's Clicky Turtlehack exercise!"
 ---
 ### I am going to embed my code below. Hope it works! 
