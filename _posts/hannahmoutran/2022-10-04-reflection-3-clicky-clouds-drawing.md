@@ -11,7 +11,7 @@ My first thought was that I would draw clouds, and then hide a rainbow inside of
 
 I’m glad I did, because it’s very nice and relaxing to make the clouds in the sky.  So, how to do this?  Well, it was important that the user knows how to work the program, so the first step was to just very simply write out how to use the mouse and keyboard to draw the sky.  This was also the last step, of course, because I had to keep updating it to reflect the updates to the program.  I made the text white, as the backgrounds were always colorful, and also it matched the clouds.  Here are the directions for the user, in the code: 
 
-```
+``` python
 sally.color("white")
   sally.penup()
   sally.goto(0,-100)
@@ -27,7 +27,7 @@ sally.color("white")
 
 The next step was making the `clouds` function, which needed x and y for arguments, because wherever the user clicks, those coordinates are where the cloud will begin to be drawn.  I put that over in the animations tab, and called it into the main tab at the top of the code: `from animations import clouds`.  Here’s the cloud function: 
 
-```
+``` python
 def clouds (x,y):
   sally.penup ()
   sally.goto (x,y)
@@ -49,7 +49,7 @@ def clouds (x,y):
 ```
 Here is the function in the main tab that called the cloud function and made it appear for the user upon clicking in the console:
 
-```
+``` python
 
 def clicky(x, y):
   clouds (x,y)
@@ -58,7 +58,7 @@ def clicky(x, y):
  
 I set up the screen in the animations tab, as well, with a light blue color, and then called that to the main tab.  In order for the user to get back to that original, light blue screen setup, I used this code: 
 
-```
+``` python
 
 def back_to_sky_blue (): 
   tina.clear ()
@@ -71,7 +71,7 @@ myscreen.onkey (back_to_sky_blue, 'space')
 
 And to change the screen background to different colors (yellow, pink, dark blue, and purple) I used the following code: 
 
-```
+``` python
 myscreen.onclick(clicky)
 
 # Functions called by keyboard clicks 
