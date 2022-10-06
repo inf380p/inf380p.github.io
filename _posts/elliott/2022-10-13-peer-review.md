@@ -3,7 +3,7 @@ layout: post
 author: elliott
 category: notes
 title: "Loops, Peer Review, Intro to Strings"
-mode: Remote
+mode: In person
 published: true
 inprogress: true
 ---
