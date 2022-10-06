@@ -3,7 +3,7 @@ layout: post
 author: hannahmoutran
 title: "Hannah Moutran's Third Reflection - Clicky Clouds Drawing"
 ---
-#Drawing the Sky 
+# Drawing the Sky 
 
 For the Clicky Turtlehack assignment, I created a program where the user clicks with their mouse to draw the clouds, and can change the background color, which represents the sky, using their arrow keys and space bar on their keyboard.  
 
@@ -108,6 +108,6 @@ myscreen.listen()
 ```
 And that’s that!  A pretty simple week, and I’m very happy with this little drawing program! 
 
-#Full trinket below: 
+# Full trinket below: 
 <iframe src="https://trinket.io/embed/python/7c1ddbabe6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
