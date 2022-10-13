@@ -80,6 +80,15 @@ authors:
     github: tommytestertwo
     twitter:
     about: "Testin' course websites since 2014."
+    
+  Eros11on:
+    name: Zheng Zhong
+    prof: false
+    gravatar:
+    website: "https://blog.csdn.net/qq_46595591?type=blog"
+    github: Eros11on
+    twitter:
+    about: "Zheng Zhong is a master in information studies at the UT Austin ischool. He is seeking a full stack software engineer intern"
 
 baseurl:
 url:
