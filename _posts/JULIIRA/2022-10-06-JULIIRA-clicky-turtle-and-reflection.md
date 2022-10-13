@@ -1,7 +1,7 @@
 ---
 layout: post
 author: JULIIRA
-title: "Clicky Turtle and Reflection"
+title: "JULIIRA's Clicky Turtle and Reflection"
 ---
 
 This exercise helped me finally understand functions and how to use them. While
