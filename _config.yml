@@ -80,6 +80,15 @@ authors:
     github: tommytestertwo
     twitter:
     about: "Testin' course websites since 2014."
+    
+  shashwat:
+    name: Shashwat Jyotishi
+    prof: false
+    gravatar:
+    website: "https://en.wikipedia.org/wiki/Lionel_Messi"
+    github: shashwatj14
+    twitter:
+    about: "Grad student at UT!"
 
 baseurl:
 url:
