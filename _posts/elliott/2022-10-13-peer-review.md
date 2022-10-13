@@ -5,10 +5,110 @@ category: notes
 title: "Loops, Peer Review, Intro to Strings"
 mode: In person
 published: true
-inprogress: true
+inprogress: false
 ---
 
-Forthcoming
+## Announcements
+
+* We slowed down this past week, and we'll be slow this coming week again. Use this time to catch up, review notes, recordings, or your text.
+* About half of the class seems to not have done the reading this week. If you're not doing readings...why? 
+
+
+## Vocab + Q&A
+
+* What should I make sure to cover in class?
+
+
+# Feedback Form
+
+Summary of the 10 or so responses (so far) to my optional feedback form.
+
+**Elliott: Going Well**
+* Like the in-class examples and modeling of skills & attitudes
+* Classes are encouraging, well-structured and engaging
+* "I really appreciated that the lectures are recorded so I can revisit parts I was confused on"
+* Discussion is a good format. Some students asked for more of that.
+
+**Elliott: Could Be Improved**
+* Time management. Some classses go long.
+* Would appreciate more open-ended challenges.
+* Clearer expectations on where we should be at different parts of the class.
+* Assignments roadmap would help with planning
+
+**Elliott: Mixed**
+* Github. Some students appreciate the content. Others feel it detracts from learning programming. Let me address this, briefly.
+* "I'm not a huge fan of the github system, but I do understand that it is a reality of the profession, so that's not likely something I can change or escape, I'll just have to live with it."
+
+**You: Doing Well**
+* Experimenting with code
+* Making fun programs
+* Curiosity, excitement
+* Adjusting to pace, workload, rhythms
+
+**You: Could Be Improved** 
+* Writing programs that are too complex or ambitious (starting small and building up is a key skill!)
+* Falling behind due to taking too detailed notes (calibrating levels of resolution of understanding is a key skill!)
+* Could be more creative with the open-ended parts
+
+
+**Overall:**
+* "Explaining more critical concepts in the class would be great" - let's talk! Which concepts are critical? How do you know? How do I know?
+* "sometimes the super open assignments stress me out"
+* "students who are new to coding feel overwhelmed and "behind" other classmates" - I know this may feel true - is it? What is 'behind'?
+ 
+
+**Remote**
+
+Overall: Decent, Nice change, not as effective
+* positive on screensharing & breakouts. 
+* difficult to pay attention
+
+Suggestions:
+* Put up whiteboard-style screen instead of gallery for discussions
+
+**In Person**
+
+* "forcing people to get up and talk to new people is good"
+* "Being able to see you lecture in person helps me stay focused and learn new information better. I like when you use the whiteboard to incorporate student's questions in our learning process too."
+* "it's hard to describe -- but in-person sessions are better in terms of getting to know my classmates."
+* "I really appreciate the in-person real-time feedback on our codes when we do partner work."
+
+
+## An Analogy
+
+I'm teaching you the World Map of Python. We're touching on major continents, oceans, what lakes and rivers *are*, etc., and talking about major countries. You don't yet know much about specific places, unless you already knew something about them. If your classmates happen to know a lot about a specific area, or the 10 tallest mountains in the world: great! That says nothing about how well you're doing learning to use maps. The skills I'm teaching you will result in knowledge, but much more importantly the ability to use and understand maps as a source of future knowledge. Someone who happens to know a lot about Austin may or may not have the ability to learn a lot about Lahore or achieve a goal with a new map. I want everyone to have that ability by the end of the semester.
+
+Github is a place where maps are made. You'll want to make and/or use maps, and you'll use Github for both. 
+
+Out of analogy mode, I focus on _process_ because learning programming is never done, and, like a map, you might remember the outlines but it's impossible to remember all the details. If you use something a lot you'll remember most of the details. If you're good at picking up and using code then you'll be able to quickly learn the relevant details of a new area.
+
+# Loops
+
+**Loops are awesome for controlling the flow of your program!**
+
+Only 50% of students did the readings :(
+
+If you didn't do the readings and have lots of questions and confusions, please yield the floor to your classmates who put in that effort.
+
+* Activity: 6.11.11
+* Activity: 5.36.4
+
+
+<h1>Strings: Introduction to your reading</h1>
+<p>Strings we know and love. We've been using them since day one. But they have hidden superpowers!</p>
+<p>Strings are quite important kinds of data, <strong>since they can encode so much of what we care about as humans</strong>.</p>
+<p>In this reading, you'll learn about&nbsp;<strong>methods. </strong>Methods are things that objects of a certain type in Python can do, by themselves, <strong>because of that type</strong>. Some things to flag for you at the outset:</p>
+<p>Strings can change their case via the <code>.upper()</code> and <code>.lower()</code> methods.&nbsp;</p>
+<p>Methods are <strong>called</strong> with the familiar <code>()</code> used in function calls. (In fact, methods are technically called <em>method functions</em>. They're not a kind of <strong>function</strong> in Python, instead part of what <strong>classes</strong> can give to the <strong>objects</strong> they create, but they're conceptually similar.)</p>
+<p>If <code>mystring</code> is a variable, we call its methods using <strong>dot notation</strong>, for example <code>mystring.upper()</code>. <strong>Note the . here and when I wrote about <code>.upper()</code> and <code>.lower()</code> above.</strong> This is key to writing about methods, and to distinguishing them from functions in your writing.</p>
+
+
+# Make a name for yourself
+
+Let's complete this activity together.
+
+
+
 
 {% comment %}
 # Part II: Group up & Make a Name For Yourself
