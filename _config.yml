@@ -80,6 +80,15 @@ authors:
     github: tommytestertwo
     twitter:
     about: "Testin' course websites since 2014."
+  
+  JamesAthrun:
+    name: JamesAthrun
+    prof: false
+    gravatar:
+    website: "https://github.com/JamesAthrun"
+    github: JamesAthrun
+    twitter:
+    about: "Master Student in iSchool of The University of Texas at Austin"
 
 baseurl:
 url:
