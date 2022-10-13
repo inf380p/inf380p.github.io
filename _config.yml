@@ -80,6 +80,15 @@ authors:
     github: tommytestertwo
     twitter:
     about: "Testin' course websites since 2014."
+  
+  unixEnthusiast:
+    name: Nikhil Singh
+    prof: false
+    gravatar:
+    website: "https://en.m.wikipedia.org/wiki/Alan_Turing"
+    github: unixEnthusiast
+    twitter: 
+    about: "Passing some time.. writing some code..."
 
 baseurl:
 url:
