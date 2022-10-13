@@ -81,5 +81,14 @@ authors:
     twitter:
     about: "Testin' course websites since 2014."
 
+  Manasvini2906:
+    name: Manasvini Karthikeyan
+    prof: false
+    gravatar:
+    website: "https://www.linkedin.com/in/manasvini-karthikeyan-83a24721b/"
+    github: Manasvini2906
+    twitter:
+    about: "Excited to learn about Github!"
+    
 baseurl:
 url:
