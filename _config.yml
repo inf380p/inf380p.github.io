@@ -80,6 +80,16 @@ authors:
     github: tommytestertwo
     twitter:
     about: "Testin' course websites since 2014."
+    
+    
+  Prakash:
+    name: Prakash Saini
+    prof: false
+    gravatar:
+    website: "https://www.linkedin.com/in/sainiprakash525/"
+    github: Prakash-sa
+    twitter:
+    about: "Developer"
 
 baseurl:
 url:
