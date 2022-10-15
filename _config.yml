@@ -82,5 +82,11 @@ authors:
     twitter:
     about: "Testin' course websites since 2014."
 
+  april:
+    name: April Martin
+    prof: false
+    github: alm7468
+    about: "April Martin is a MSIS student focusing on physical and digital preservation in libraries, archives, and museums, at the UT Austin iSchool." 
+
 baseurl:
 url:
