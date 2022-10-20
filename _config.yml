@@ -82,5 +82,14 @@ authors:
     twitter:
     about: "Testin' course websites since 2014."
 
+  AP:
+  name: Allison Pujol, aka amptex101
+  prof: false
+  gravatar: 
+  website: https://opensource.glassanimals.com/
+  github: amptex101
+  twitter: 
+  about: "just a little grad student in English and Info Studies trying to get through a class about programming! I love to read and swim."
+  
 baseurl:
 url:
