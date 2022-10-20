@@ -3,7 +3,7 @@ layout: post
 author: elliott
 categories:
   - exercise
-title: Functional Turtles Exercise
+title: "CSV practice #1"
 inclass: false
 duedate: false
 inprogress: false

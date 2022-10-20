@@ -29,7 +29,7 @@ We'll be using Python 3 in Trinket for all text-based work.  Remember your `prin
 `end='\n'` lets you specify what to do at the end of the print functin.  It defaults to a newline.
 
 You can make anonymous Python 3 trinkets on Trinket for free.  If you want the convenience of saving your
-Python 3 trinkets to your account, you should use code `INF380P` to get our premium plan at a huge discount of $4.50 a month.
+Python 3 trinkets to your account, you should use code `INF380P` to get our premium plan for free for the semester.
 
 # Part I: Files & Lists Preview
 
@@ -45,7 +45,7 @@ We'll review all of these today, using a preview of your homework:
 
 <iframe src="https://trinket.io/embed/python3/2e9e967b69" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-# Part II: Lists Review
+# Part II: Strings Review
 
 Specific questions from YOU
 
