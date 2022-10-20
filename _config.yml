@@ -82,5 +82,14 @@ authors:
     twitter:
     about: "Testin' course websites since 2014."
 
+  RosalindBradshaw:
+    name: Rosalind Bradshaw
+    prof: false
+    gravatar:
+    website: https://www.youtube.com/watch?v=LLFhKaqnWwk
+    github: RosalindBradshaw
+    twitter:
+    about: "Second year grad student going into archival work."
+    
 baseurl:
 url:
