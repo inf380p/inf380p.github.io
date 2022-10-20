@@ -5,7 +5,7 @@ category: notes
 title: "Strings. Intro to Files"
 mode: In person
 published: true
-inprogress: true
+inprogress: false
 ---
 
 * Functions/refactor review
