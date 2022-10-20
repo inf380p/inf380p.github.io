@@ -81,6 +81,17 @@ authors:
     github: tommytestertwo
     twitter:
     about: "Testin' course websites since 2014."
+   
+    
+  nathanstern93:
+    nathan: Nathan Stern
+    prof: false
+    gravatar:
+    website:
+    github: nathanstern93
+    twitter:
+    about: "Nathan is a dual degree student in MSIS and MGPS."
+    
 
 baseurl:
 url:
