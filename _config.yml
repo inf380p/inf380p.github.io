@@ -82,8 +82,6 @@ authors:
     twitter:
     about: "Testin' course websites since 2014."
 
-baseurl:
-url:
   alm7468:
     name: alm7468
     prof: false
@@ -372,3 +370,5 @@ url:
     twitter:
     about: "Here's a little about zengjilie"
     
+baseurl:
+url:
