@@ -81,6 +81,15 @@ authors:
     github: tommytestertwo
     twitter:
     about: "Testin' course websites since 2014."
+    
+  Jilie:
+    name: Jilie Zeng
+    prof: false
+    gravatar:
+    website: "www.zengjilie.com"
+    github: zengjilie
+    twitter:
+    about: "Developer"
 
 baseurl:
 url:
