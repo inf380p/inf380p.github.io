@@ -81,6 +81,13 @@ authors:
     github: tommytestertwo
     twitter:
     about: "Testin' course websites since 2014."
+    
+  Shih-Chieh:
+    name: Shih-Chieh Dai
+    prof: false
+    website: "https://www.linkedin.com/in/scdai"
+    github: scdai9
+    about: "I am a second year Master student at School of Information, UT-Austin."
 
 baseurl:
 url:
