@@ -1,7 +1,7 @@
 ---
 layout: post
-author: tommytester
-title: "Tommy's Reflection on the Class So Far"
+author: hyotester
+title: "Hyotester's Reflection on the class so far"
 ---
 
 Here's the program I'm embedding:
