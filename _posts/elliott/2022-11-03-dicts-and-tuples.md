@@ -2,9 +2,10 @@
 author: elliott
 category: notes
 layout: post
-title: "Dictionaries and Tuples"
+title: "Lists, CSV review, & Intro to Dicts"
 mode: Remote
-published: false
+published: true
+inprogress: true
 ---
 
 # Announcements
