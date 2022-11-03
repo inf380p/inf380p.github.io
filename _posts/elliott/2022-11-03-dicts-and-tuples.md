@@ -24,9 +24,9 @@ The [official Python documention on dictionaries](https://docs.python.org/3/libr
 
 <h2>Dictionaries</h2>
 <p>Let's use dictionaries to count the total number of emails from a given&nbsp;<strong>domain name</strong> (part after the @).</p>
-<p><iframe title="embedded content" src="https://trinket.io/embed/python/1542961244" width="100%" height="756" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe src="https://trinket.io/embed/python3/9b3c1d3ff8" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></p>
 <p>Let's look at dictionaries in comparison to other methods, on the air pollution problem from the Files chapter:</p>
-<p><iframe title="embedded content" src="https://trinket.io/embed/python/82c4707fea" width="100%" height="756" allowfullscreen="allowfullscreen"></iframe></p>
+<p><iframe src="https://trinket.io/embed/python3/e4e02cc580" width="100%" height="756" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></p>
 <h3>Dictionaries and Data Processing</h3>
 <p>Imagine a dictionary named <code>city_stats</code> containing statistics for a bunch of US cities. To get the population for Austin, Texas, we could do something like this:</p>
 <pre>city_stats["TX"]["Austin"]["Population"]</pre>
