@@ -5,7 +5,7 @@ title: "Rosalind Bradshaw's Python Meetup Writeup"
 ---
 
 
-How did it go?
+## How did it go?
 
 For this activity, I decided to step way outside my comfort zone and join a Python meetup with a group in Norfolk Virginia. The pick of that location, 
 doesn’t mean anything, it was just the one that worked the best for my schedule. I found the meetup by googling python group meetups and searching through 
@@ -21,7 +21,7 @@ also see how a more structured demonstration would have been more beneficial, as
 rather than just a casual chat session.
 
 
-What did you learn?
+## What did you learn?
 
 Throughout the two hours I spent in the meetup, I learned several new things. I learned about a programs called Jupyter, which was described as 
 “a way to use a browser as a GUI for iPython”, and Spyder, which is an IDE that can run code while offline. I also learned that dataframes are data in 
@@ -31,7 +31,7 @@ as a dict of Series all sharing the same index. Under the hood, the data is stor
 other collection of one-dimensional arrays.
 
 
-Would you find value in this kind of event after class?
+## Would you find value in this kind of event after class?
 
 I think an event like this does bring some value to classes such as ours. The primary goal of the meetup I attended was for coders to come together and for 
 new coders to have a place to ask questions, learn some stuff, and see examples being worked on in real life. I think something like that does have the 
@@ -39,7 +39,7 @@ potential to help new programmers get more familiar with the language, as well a
 time.
 
 
-How was the experience different from your expectations?
+## How was the experience different from your expectations?
 
 I was definitely expecting something a bit more structured from the initial description. For the first hour and a half it was basically just myself and 
 the organizer chatting about coding and what I was learning in class. It was a good experience to see that, even though the organizer runs a coding group, 
@@ -47,7 +47,7 @@ he definitely doesn’t know everything about Python either. He mentioned that h
 of being a biologist. So it was definitely interesting seeing another example of how someone can learn and use a language like python.
 
 
-Could you see yourself becoming a member of a professional community like this in the future?
+## Could you see yourself becoming a member of a professional community like this in the future?
 
 Potentially yes, I do think having a social place where new coders can come together to learn from their peers is highly beneficial. In the future, 
 I definitely will consider looking up groups like this one. Not because I anticipate being in a highly code-intensive career (though, you never know what 
