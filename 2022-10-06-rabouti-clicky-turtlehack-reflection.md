@@ -1,11 +1,7 @@
 --- 
-
 layout: post 
-
 author: rabouti 
-
 title: "Rabouti’s Clicky Turtlehack and Reflection" 
-
 --- 
 
  
