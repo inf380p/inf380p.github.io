@@ -179,3 +179,5 @@ items.
 
 Here's the full program:
 <iframe src="https://trinket.io/embed/python3/a4b9c22c1f" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+EDIT: I forgot to include that I apparently didn't save my original file. I thought I had saved it last week, but I was unable to find it anywhere. This reflection and the final code have been created mostly from my memory of the original.
