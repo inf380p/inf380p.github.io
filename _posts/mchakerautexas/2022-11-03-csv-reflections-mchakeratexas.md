@@ -1,11 +1,7 @@
 ---
-
 layout: post
-
 author: mchakerautexas
-
 title: Mufaddal's csv reflections
-
 ---
 
 ## First Reflection
@@ -65,3 +61,5 @@ After and during the class, I was trying to crack the problem of making the mess
 So I got to work, and realized that there is a pattern (even in the messiness(?)). There are some unnecessary new lines, each data cell is encapsulated in quotation marks, and I just have to join everything together(ignoring the new lines), but make sure to not interrupt the correct new lines(the ones that separate rows of data). 
 
 I finally came up with the following:
+
+<iframe src="https://trinket.io/embed/python3/e0e2c97927" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
