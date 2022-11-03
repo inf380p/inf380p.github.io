@@ -1,7 +1,7 @@
 ---
 layout: post
 author: JohnCBMeyer
-title: John's CSV Reflection
+title: "John's CSV Reflection"
 ---
 
 # Refactoring other people's code sucks.
