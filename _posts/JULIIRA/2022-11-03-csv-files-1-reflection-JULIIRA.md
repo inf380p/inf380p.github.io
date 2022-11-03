@@ -8,9 +8,7 @@ While I was working on this code, I noticed the progress I had made so far and w
 I am finally getting the hang of loops, indentations and functions. However, I still have room for improvement as I faced
 the following issues in the first code:
 
-```
 <iframe src="https://trinket.io/embed/python3/56c2ee200d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-```
 
 Most of the issues were so simple that when I finally found the solution, I had to take a break to cope. Here are some of the major
 issues I faced:
@@ -48,9 +46,10 @@ But this very frustrating situation taught me the importance of indentation and 
 
 Now, I will go over my lightbulb moments. This is my second code and the revision of CSV files 1: 
 
-```
+
 <iframe src="https://trinket.io/embed/python3/a8c22f1d7a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-```
+
+
 Because I wasted so much time trying to figure out how to solve the elif choice_str issues, I was only able to complete three items on
 the To-Do list and even then, I'm not sure if I did it properly (yikes!). I was able to put the interface in a loop and create a new menu
 that allows user to exit the code. 
