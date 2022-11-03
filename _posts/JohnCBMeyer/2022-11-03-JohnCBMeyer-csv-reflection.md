@@ -95,7 +95,7 @@ I think I'll go back and try this kind of input instead of the screen listeners
 in the turtle hack. 
 
 # Return statements are unintuitive.
-The next problem I had was with `return` statements. I'm still getting use to 
+The next problem I had was with `return` statements. I'm still getting used to 
 scope in Python, so I keep forgetting that assigning something in a function doesn't
 assign it in the global environment. So, once I realized that a function I was
 creating wasn't assigning a variable like I wanted, I realized that I needed a 
