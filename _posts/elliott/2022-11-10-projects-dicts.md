@@ -1,9 +1,10 @@
 ---
 author: elliott
 category: notes
-title: "Turtle +  Classes"
+title: "Dictionaries & Intro to Classes"
 layout: post
-published: false
+published: true
+inprogress: true
 mode: In Person
 ---
 # Announcements

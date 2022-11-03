@@ -2,9 +2,10 @@
 author: elliott
 category: notes
 layout: post
-title: "Regex & basic search"
+title: "Final projects work session"
 mode: Remote
-published: false
+published: true
+inprogress: true
 ---
 
 # Q&A and Vocab

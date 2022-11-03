@@ -3,7 +3,8 @@ layout: post
 author: elliott
 categories:
   - exercise
-title: "Class Hack"
+inclass: true
+title: "Class Extension Turtlehack"
 canvas: false
 ---
 

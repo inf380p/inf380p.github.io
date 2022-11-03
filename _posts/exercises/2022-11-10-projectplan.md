@@ -5,6 +5,8 @@ categories:
   - exercise
 title: "Project idea & work plan"
 canvas: false
+inclass: true
+inprogress: true
 ---
 
 
