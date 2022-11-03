@@ -1,3 +1,9 @@
+---
+layout: post
+author: haley-triem
+title: "Haley's CSV Reflection"
+---
+
 # THE ORIGINAL CODE
 
 In this assignment, we were given a code that presented information on different ischools around the world, and were to add a list of features to the given code over a period of two weeks:
