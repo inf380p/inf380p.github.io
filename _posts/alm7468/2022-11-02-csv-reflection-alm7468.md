@@ -141,7 +141,7 @@ I'll have to be done for today because I've spent hours on this with no actual p
 Ok it's my last oppurtunity to give this a shot.  
 After playing around a bit, I feel like I just don't know how to take invalid user input, navigate to interface.py and then return the new file name to main.py. I bet I'm over thinking it but that's where I am getting stuck.\nI'm going to comment out the user input part for now.  
 After looking at the formatting of the columns section we edited in class, I am going to try to match the last line with `row_dicts_list = get_row_dicts_list()`  
-While testing each menu option, I noticed I had not asked the columns to print as a response to Menu choice 3, I tried adding it but it's just printing the headers. I just copy pasted (sue me.) everything from the `get_row_list()` and change the term row our for column. I'm running into the same issue in main.py where I struggle to use information from interface.py in main.py.
+While testing each menu option, I noticed I had not asked the columns to print as a response to Menu choice 3, I tried adding it but it's just printing the headers. I just copy pasted (sue me.) everything from the `get_row_list()` and changed the term row out for column. I'm running into the same issue in main.py where I struggle to use information from interface.py in main.py.
 
 # Round 2 code
 <iframe src="https://trinket.io/embed/python3/61b8356ad6" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
