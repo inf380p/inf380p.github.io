@@ -29,7 +29,7 @@ For example, when looking back at my notes, I found that I had wrote “`tina.de
 While I had not specifically written `tina.delay(600) = Party!` in my program itself, the energy was there.  
 
 ## Some of my other favorite notes that seem to capture my rollercoaster relationship with coding include:
->`turtle.right()` is rotation !!!!!!!!!!!! Not mmovement !!!!!!!!!!!!!!!
+>`turtle.right()` is rotation !!!!!!!!!!!! Not movement !!!!!!!!!!!!!!!
 >
 >Degrees are better than coordinates for drawing things so you don't HAVE TO MOVE LITERALLY EVERYTHING  
 >
