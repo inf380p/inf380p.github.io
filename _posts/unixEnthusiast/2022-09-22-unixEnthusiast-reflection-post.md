@@ -1,3 +1,9 @@
+---
+layout: post
+author: unixEnthusiast
+title: "unixEnthusiast's first post!"
+---
+
 I feel that this course has been a solid refresher on the core concepts of programming and software developement for me. Understanding these concepts in my opinion is extremely important and something which can build a solid base always goes a long way. The lightbulb was definetely the fact that I need to be fluent and understand these concepts rather than be perfect in it. There are various aspects especially version control and thinking like a developer which I wanted to revisit and happy to see those topics being tackled on. I remember the way which the groups discussed various ways to program the turtle exercise and that showed such great team work. I was able to create functions and sub-functions which made the code simpler to read while also modularizing it. I feel some youtube tutorials are also helpful to combine knowledge gained from the class as well.
 
 Code to draw a diamond shape:
