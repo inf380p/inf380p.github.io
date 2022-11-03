@@ -3,9 +3,10 @@ layout: post
 author: elliott
 categories:
   - exercise
-title: "Revised Project Plan Discussion"
+title: "Project Plan Discussion"
 inclass: true
 canvas: false
+inprogress: true
 ---
 
 Group & Pair up.  Read the below silently. Review ~& merge~ each other's pull requests.
