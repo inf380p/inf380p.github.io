@@ -72,7 +72,15 @@ authors:
     twitter: hauspoor
     about:  "Elliott Hauser is an Assistant Professor at the UT Austin iSchool.  He's hacking education as one of the cofounders of Trinket.io."
 
-
+  hannahmoutran:
+    name: Hannah Moutran
+    prof: false
+    gravatar: 
+    website: 
+    github: hannahmoutran
+    twitter: 
+    about:  "Hannah Moutran is a first year graduate student at UT's iSchool."
+    
   tommytestertwo:
     name: Tommy Tester
     prof: false
@@ -81,15 +89,33 @@ authors:
     github: tommytestertwo
     twitter:
     about: "Testin' course websites since 2014."
+  
+  unixEnthusiast:
+    name: Nikhil Singh
+    prof: false
+    gravatar:
+    website: "https://en.m.wikipedia.org/wiki/Alan_Turing"
+    github: unixEnthusiast
+    twitter: 
+    about: "Passing some time.. writing some code..."
+    
+  mchakerautexas:
+    name: Mufaddal Chakera
+    prof: false
+    gravatar:
+    website: "https://linuxtorvalds.com/"
+    github: mchakerautexas
+    twitter:
+    about: "Learning how to code here!"
 
   alm7468:
-    name: alm7468
+    name: April Martin
     prof: false
     gravatar:
     website: "#"
     github: alm7468
     twitter:
-    about: "Here's a little about alm7468"
+    about: "April Martin is a MSIS student focusing on physical and digital preservation in libraries, archives, and museums, at the UT Austin iSchool."
     
   amptex101:
     name: amptex101
@@ -137,13 +163,13 @@ authors:
     about: "Here's a little about Eros11on"
     
   greencouchpotato:
-    name: greencouchpotato
+    name: Jyotsna Vempati
     prof: false
     gravatar:
-    website: "#"
+    website: "linkedin.com/in/jyotsnavempati"
     github: greencouchpotato
-    twitter:
-    about: "Here's a little about greencouchpotato"
+    twitter: na
+    about: "I'm a first year grad student at School of Information, UT. I'm specialising in UX Design."
     
   haley-triem:
     name: haley-triem
@@ -152,7 +178,7 @@ authors:
     website: "#"
     github: haley-triem
     twitter:
-    about: "Here's a little about haley-triem"
+    about: "With a typing speed of 90wpm and 100% acruacy, Haley is a coding whiz."
     
   hannahmoutran:
     name: hannahmoutran
@@ -302,19 +328,19 @@ authors:
     name: RosalindBradshaw
     prof: false
     gravatar:
-    website: "#"
+    website: "https://www.youtube.com/watch?v=LLFhKaqnWwk"
     github: RosalindBradshaw
     twitter:
-    about: "Here's a little about RosalindBradshaw"
+    about: "Second year grad student going into archival work."
     
   Rowan-Loft:
     name: Rowan-Loft
     prof: false
     gravatar:
-    website: "#"
+    website: "https://github.com/Rowan-Loft"
     github: Rowan-Loft
     twitter:
-    about: "Here's a little about Rowan-Loft"
+    about: "I'm a Second Year Grad with the I-School going into Library Sciences"
     
   scdai9:
     name: scdai9
