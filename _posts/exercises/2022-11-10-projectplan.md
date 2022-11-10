@@ -3,10 +3,10 @@ layout: post
 author: elliott
 categories:
   - exercise
-title: "Project idea & work plan"
+title: "Initial Project Idea & Work Plan"
 canvas: false
 inclass: true
-inprogress: true
+inprogress: false
 ---
 
 
@@ -21,5 +21,6 @@ Then, determine whether you'll pursue the Data analysis or Turtle-based option. 
 
 This doesn't have to be long (1-2 paragraphs and a list), but it should reflect lots of thought. The
 more work you do in the planning phase in terms of thinking through (and perhaps trying out) your ideas
-the easier the execution phase will be.  If you've started your final, include a **duplicate** of your code (and keep working on the original).
+the easier the execution phase will be.  If you've started any code that you intend to use in 
+your final, include an embedded **duplicate** of your code (and then keep working on the original, not the duplicate).
 

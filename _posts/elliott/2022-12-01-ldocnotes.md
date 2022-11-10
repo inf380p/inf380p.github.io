@@ -4,7 +4,7 @@ category: notes
 title: "Last day of Class!"
 layout: post
 published: true
-mode: TBD
+mode: In Person
 inprogress: true
 ---
 
