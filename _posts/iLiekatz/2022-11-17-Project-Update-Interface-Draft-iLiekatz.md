@@ -1,7 +1,7 @@
 —
 layout: post
 author: iLiekatz
-title: My Snake Game Interface Draft
+title: "My Snake Game Interface Draft"
 —
 This past week I have definitively  decided on what I will be building for my project. I will be building my version of the game snake. I believe that this will allow me to both put what I have learned to practice, as well as be a big challenge for me to accomplish the simultaneous user interaction and game output. Now that I have decided on what I will be building, I have been able to lay out an overall milestone plan. I will be taking weekly inventory, and when necessary break down the overall milestones into more consumable, manageable pieces for me to work on. 
 
