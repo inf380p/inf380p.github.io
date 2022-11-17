@@ -1,6 +1,6 @@
 ---
 layout: Post
-Author: atUTexas
+Author: atUtexas
 Title: "My First Reflection on the Class so Far"
 ---
 

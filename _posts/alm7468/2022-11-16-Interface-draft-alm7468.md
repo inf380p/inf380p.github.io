@@ -100,3 +100,38 @@ Game 1 or 2?
 
 SOLUTION: 
 ```print("{key} : {value}")``` properly formatted to  ```print(num + " : " + game)```
+
+---
+### REVISIONS
+After speaking to my group about my milestones, I have some updates.  
+  
+Also, it was suggested that I:
+- Add a line of clear directions when Game 1 starts for clarity of expectations
+- Resolve the issue where the first attempted user click isn't counted towards the score, instead its just establishing that the user will intereact with the screen
+- Get the letter to stay on the screen slightly longer in the letter game
+- Should next think about incorporating the "winning" element to make this a valid game program.
+
+In the future I will incorporate more code in my pull request to help the user understand what I am describing, Thanks Soojin!  
+  
+The rest of my current goals seemed appropriate for the assignment.
+### Milestones:
+- randomize "it" movement in game 1
+- focus on adding levels
+- incorporate an image
+- create user key response in game 2, this feels ambious because I have to figure out to define the moment when user key matches the randomly generated key and I'm not sure what the limitations are there. Does the program recognize the individual letters displayed? How will the linear running quality of python limit the ability to check for matches every 1-2 seconds as the letter changes?
+- migrate everything into a multi-module program for a clean look  
+  
+  
+This is still my list of class assignment requirements to incorporate... 
+- Custom modules  
+   - _I will migrate game 1, game 2, and interface into separate modules_ 
+- Have a constantly available help dialog. This can take many forms but should allow the user to learn what they can do in the program at any time.
+- Have at least 3 levels, increasing in difficulty
+- Extend a custom Turtle Class  
+    - _I can do this to one of my many turtles (writer, dotty, it, or keeper)_
+- Have a ‘win’ screen  
+    - _Maybe add happy, congratulations image here? When user reaches certain score_
+- Use one or more custom images  
+    - _I think I will do this on the 'win' screen_
+- At least one external data file. For Turtle, this can be game settings, character data, or etc. For the data tool, this should be your data.  
+     - _need to figure this out_

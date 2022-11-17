@@ -1,7 +1,7 @@
 ---
-layout : post
-author : pranithavallabhaneni
-title  :"Pranitha's Initial thoughts for project"
+layout: post
+author: pranithavallabhaneni
+title: "Pranitha's Initial thoughts for project"
 ---
 
 Till now I have worked on turtle in all of my previous exercises but for the end result of programming, I'm planning to do the **Data Analysis** 
