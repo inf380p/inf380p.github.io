@@ -102,3 +102,7 @@ I hope I'll be able to keep to my plan, but if by chance I do not achieve everyt
 I plan to figure out how to make the apples and turtle disappear when they interact with other objects if possible and once I figured that out, 
 I will figure out how to make the first level loop. Then, I will work on completeing everything on my milestone list.
 Then, if I have time, I will try to figure out if I can insert a time limit to the game to add more difficulty. 
+
+# Revised milestones as a result of discussion
+- create a start button using the onkey code
+- import an image for either avatars or background
