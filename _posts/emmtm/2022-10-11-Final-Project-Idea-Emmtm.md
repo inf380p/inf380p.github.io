@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 authour: emmtm
 title: "Emmalee's Final Project Concept"
 ---
