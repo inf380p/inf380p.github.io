@@ -46,6 +46,8 @@ Questions?
 
 Quick intermission while I make groups from the form responses.
 
+{% include groups %}
+
 # Pair up and merge up!
 
 With your new partner, pair up and Merge your interface draft.
