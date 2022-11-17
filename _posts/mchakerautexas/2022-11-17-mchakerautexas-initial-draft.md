@@ -36,3 +36,9 @@ I have come up with an initial list of milestones:
 This project so far feels like I have taken up much more than I can handle, but I guess that's what leads to growth! I am definitely anxious about completing even the top 5 things on my milestone plan, but I will try my best and use any and all resources I can find online or otherwise. I am yet to design proper sketches of how the game actually looks, for now, I am designing as I code, which I understand is a bad thing. I will be focusing more on putting aside time to design before I implement so that I don't confuse myself more as I do this project.
 
 On the topic of design, I have come to know that good software engineers design how their code will flow and be structured before they actually code as well. I will look into this as well, and try to design or have an idea of how I want my code to be structured before I implement it so that I don't end up making unnecessary changes when I need to add/change functionality.
+
+# Revised Milestones based on discussion
+
+....
+
+Some comments here    
