@@ -10,7 +10,8 @@ This is my first post supercalajdfksjafd :)
 
 
 ___ 
-## Reflection added Nov 17th
+
+## Reflection Revisted, Nov 17th
 This is a reflection added much later. Imagine a few thoughtful paragraphs going here, using `inline code`, since later on in the semester I, tommytester, had a much better idea about what a good reflection looks like. Plus, my markdown skills have gotten better. 
 
 This reflection should cover the assignment above and, optionally, meta-reflections about what I didn't understand at first about reflections, or about what I see now reading what I wrote back in September.
