@@ -33,3 +33,15 @@ Other than that, the biggest thing I'm trying to figure out is how to slice up p
 ### Test Trinket:
 
 <iframe src="https://trinket.io/embed/python3/36f076f8dd" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+# ✏️ An Update After Class ✏️
+
+After discussing with my project partner, I reevaluated some of my goals. I realized that it's a little too ambitious to try to do natural language processing, so I might go off of a data menu as we did in our .CSV file project. Another thing my project partner put on my radar was that I probably need to use an inventory. He suggested making an inventory by using a list, and then appending different objects when the player "picked them up."
+
+The final piece of advice that my partner gave was not biting off more than I can chew. I had grand ideas about escape rooms and multiple endings, but my partner suggested to start by creating a main loop that the player can go through, and then adding on other branches later once I am successful with that main loop. In light of that, here are my goals:
+
+> 1. Create an inventory with ways for players to add to inventory
+> 2. Create a main menu that players can go through
+> 3. Map out conditionals that require players to puzzle their way through and get the right items in the right order
+> 4. Bonus: create a move counter that makes the player lose if they don't solve the puzzle quickly enough
+
