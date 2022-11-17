@@ -4,7 +4,7 @@ author: elliott
 categories:
   - exercise
 inclass: false
-title: "*Extra Credit:* Class Extension Turtlehack"
+title: "(Extra Credit) Class Extension Turtlehack"
 canvas: false
 ---
 
