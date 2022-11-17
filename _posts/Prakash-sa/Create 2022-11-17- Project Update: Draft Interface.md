@@ -15,8 +15,8 @@ I will clean and visualize the Stock market data from the different country. It 
 
 I feel the following can be a good plan to create the project:
 
-- Get the data.
-- Extract the data from the HTML
+- [x] Get the data.
+- [x] Extract the data from the HTML
 - Design and implement the interface for the stock market
 - Implement the different analysis as functions in the program
 - Integrate them all in the main interface.
@@ -24,9 +24,7 @@ I feel the following can be a good plan to create the project:
 
 ## Extracting the data
 
-To create the interface menu, I took inspiration from the CSV assignment and assigned separate function for rendering the menu from a dictionary of key 'numbers' and the value of the String option. Then, the function goes through the dictionary and prints out the option. When one option is selected, the selected key is displayed. This can be used later to integrate the different feature functions.
-
-Get the data using BeautifulSoup, urllib library.
+I sucessfully got the data using BeautifulSoup, urllib library.
 
 ```python
 from urllib.request import urlopen
