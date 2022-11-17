@@ -4,7 +4,8 @@ authour: emmtm
 title: "Emmalee's User Interface Draft!"
 ---
 
-my trinket embed: <iframe src="https://trinket.io/embed/python/bd6b4e9d02" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+my trinket embed:
+<iframe src="https://trinket.io/embed/python/bd6b4e9d02" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 My project is coming along really nicely, I haven't run into any roadblocks yet and was able to successfully create a working interface that 
 1. Asks users questions that will be saved to a list & later pulled out so their name, relationship status, astrological sign, etc can be infused into the reading template for a more personalized feel
