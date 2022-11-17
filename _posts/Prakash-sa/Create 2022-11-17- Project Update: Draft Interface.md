@@ -13,7 +13,7 @@ I will clean and visualize the Stock market data from the different country. It 
 
 - For the data, I am using the HTML format from the website.
 
-I feel the following can be a good plan to create the project:
+I feel the following is a good plan to create the project:
 
 - [x] Get the data.
 - [x] Extract the data from the HTML
