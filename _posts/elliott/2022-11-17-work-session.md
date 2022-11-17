@@ -5,7 +5,7 @@ layout: post
 title: "Final projects work session"
 mode: Remote
 published: true
-inprogress: true
+inprogress: false
 ---
 
 # Announcements
