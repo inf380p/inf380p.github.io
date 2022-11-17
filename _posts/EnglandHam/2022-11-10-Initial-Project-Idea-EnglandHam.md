@@ -24,7 +24,7 @@ I am a bit scared this will lead me to focus more on the front-end visualization
 
   
 ### (soft) Milestones:
-1. Reflect back on all the Trinkets and homework problems that stood out to me (week 1)
+1. Reflect back on all the Trinkets and homework problems that stood out to me (week 1) 
 2. Narrow down the project idea into one and set another milestones that's do-able for me; discuss with the professor to see the possibilities (week 1)
 3. Set up storyboard and Python concepts I want to incorporate into the game (week 1)
 4. Try to focus on building the basic and external file, specifically for level 1 (week 2)
@@ -33,4 +33,13 @@ I am a bit scared this will lead me to focus more on the front-end visualization
 7. Wrap up the project, fix minor bugs, try to get it play-tested; contact the professor if any major issues rise (week 4)
 8. Show off my game to my awesome classmates (week 4/5)
 
+## Interface Draft
+I am going to work on top of the clicky turtle exercise we did in class. Here is the [interface draft](https://trinket.io/python/c1a3456481). From here I can focus on setting up the visual background and creating a game where a turtle goes through an adventure to find his soul mate. I am still wondering how I will make it into 3 different levels but I feel excited to make much more complex and interactive game by utilizing this key:
+```
+myscreen.onkey(go_left, 'left')
+myscreen.onkey(go_right, 'right')
+myscreen.onkey(go_forward, 'up')
+myscreen.onkey(go_backward, 'down')
+```
+For now, I will focus on getting the first level done and setting up an environment where a turtle can successfully interact with specific things to meet his princess turtle. 
  
