@@ -24,7 +24,7 @@ method:
 This really took some work to get right. At first, I wrote this so that the user
 needed to specify a `goto()` location to begin drawing, but that felt wrong. I knew
 I was going to add a parameter that instantiated the class at a specific location.
-Given that, it only seemd appropriate that `draw_polygon` would draw in place unless
+Given that, it only seemed appropriate that `draw_polygon` would draw in place unless
 otherwise specified.
 
 The first thing I tried was using `self.xcor()` as a default value for the `x`
