@@ -45,6 +45,7 @@ be completed by the date and time listed.  Class notes are for your reference of
 {% comment %} Push them onto assignments in the correct order {% endcomment %}
 {% assign assignments = "" | split: "" %}
 {% assign class_dates = "" | split: "" %}
+{% comment %} `shift` is decending, `unshift` ascending {% endcomment %}
 {% for note in site.categories.notes %}
     {% assign class_dates = class_dates | unshift: note.date %}
 {% endfor %}
@@ -76,7 +77,7 @@ be completed by the date and time listed.  Class notes are for your reference of
     {% endfor %}
 {% endfor%}
 
-{% assign all_assignments = assignments  %}
+{% assign all_assignments = assignments | reverse %}
 
 <table role="main" aria-label="Assignments list">
 
