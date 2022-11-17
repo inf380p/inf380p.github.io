@@ -9,7 +9,7 @@ I would like to make a text-based game based on D&D. My idea is to have a basic
 dungeon crawl, with branching pathways and set enemies. If I have time, I'd like
 to include random encounters and an equipment system. I'll start by making two
 character classes, Fighter and Wizard, but if I have time, I'd like to end up with
-four: Fight, Wizard, Rogue, Cleric. Each class will have a different set of stats,
+four: Fighter, Wizard, Rogue, Cleric. Each class will have a different set of stats,
 including health, armor, accuracy, and damage. I would also like to give each a
 class-specific unique effect, like Fighter gets a Block action that increases armor,
 Rogue gets a Sneak Attack that does extra damage, etc...
