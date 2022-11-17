@@ -14,6 +14,11 @@ Below is a snip of how I'd like my game to look like -
 
 <img width="843" alt="Screenshot 2022-11-17 at 1 12 04 PM" src="https://user-images.githubusercontent.com/111150827/202538923-bd7610c1-14a5-48a5-b02e-069f30966aa4.png">
 
+1. I'd like to import a random functions and feed some words and hints into the code
+2. I'd then create a UI element to set the visuals for the game
+3. I believe most of my work requires if/elif funtion because it's a trial and error game.
+4. It has about 10 levels and a use has n number of chances to determine the correct word.
+
 ###Next steps
 
 I'm working on building the code for this. I'll have to import a random function and a clickable alphabet "buttons" that the user can click on.
