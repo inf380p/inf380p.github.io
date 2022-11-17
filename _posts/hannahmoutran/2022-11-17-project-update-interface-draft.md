@@ -50,3 +50,18 @@ Here’s a copy of the trinket as it exists now:
 
 <iframe src="https://trinket.io/embed/python3/4d4d432650" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 	
+##Added after class: 
+###These were my initial milestones: 
+ - Download and clean up csv file 
+ - Create dictionary with keys
+ - Create Menu that asks for user input, allows for an exit function 
+ - Add functionality to menu, making conditionals that will guide the output 
+ - Make functions for the menu choices 
+ 
+ ###Here's new list of milestones based off of what I still have left to do:  
+ -  create menu functionality for the options 1 and 2 using the code I already have  
+ -  figure out how to sort by a column
+ -  figure out how to create graphs (stretch)
+ -  write code for recommending a random book 
+ -  figure out how to keep the user's choices building on one another until they request a clean slate 
+ -  possibly look into scraping data using Python (mega-stretch, but maybe)
