@@ -110,3 +110,9 @@ Before the next class period, the biggest thing to be done is to have all of my 
 `functions` to enable each section of the maze to be drawn as the player gets to it. There will be some roadblocks with that, with a notable one being how to
 accurately and consistenly draw curved lines between two given grid points. I'm sure it can be done, it will just be a matter of figuring out the exact
 math to make it happen. After that, the next goal will be to code the help button within the expanded `turtle class`.
+
+
+#### Work Plan Revisions
+Based on my feed back from my group yesterday, I feel comfortable with my work plan as it is laid out currently.
+
+If I have time near the end of the semeseter and everything else has been done, I might explore adding in some more levels to my game, or an End Credits sequence.
