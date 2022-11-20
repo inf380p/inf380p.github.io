@@ -3,6 +3,7 @@ layout: post
 author: pranithavallabhaneni
 title: "Pranitha's interface draft"
 ---
+
 **Project Introduction:**
 
 Being a student from the healthcare background I would like to utilize my skills learnt in this class to be used to analyze 'Health Nutrition and Population Statistics' data set that is available in the CSV format.
