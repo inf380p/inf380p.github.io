@@ -7,16 +7,17 @@ title: "Clicky Turtle Hack"
 
 It will ask for the input and make polygon with the turtle.
 
-<iframe src="https://trinket.io/embed/python3/c693a1e6d0" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/5bc112c344" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
 ```
 import turtle
+from animations import setup
 
 chair = turtle.Turtle()
 
-chair_color = input("What color should Chair be now?")
-chair.color(chair_color)
+myscreen = turtle.Screen()
+setup(myscreen)
 
 
 side_number = int(input("How many sides are in this polygon?"))
@@ -29,14 +30,16 @@ side_number_1 = side_number
 world_size = (side_number/2)*100
 chair.getscreen().setworldcoordinates(-world_size,-world_size,world_size,world_size)
 
-filledcol = input("What color should the fill be?")
-chair.fillcolor(filledcol)
+chair_color = input("What color should polygon be now?")
+chair.color(chair_color)
 
 while (side_number_1 > 0):
-  chair.fill(True)
+  # chair.fill(True)
   chair.left(180-(total_angle/side_number))
   chair.forward(100)
   side_number_1 = side_number_1 - 1
+
+
 
 chair.fill(False)
   ```
