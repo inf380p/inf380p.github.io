@@ -5,7 +5,7 @@ title: "Prakash's Turtle class extension"
 ---
 
 I wrote the helix spiral code with turtle.
-'''
+```
 def helix_spiral(self, number,color='black', x=None, y=None,speedN=2):
 
   self.pendown()
@@ -20,7 +20,7 @@ def helix_spiral(self, number,color='black', x=None, y=None,speedN=2):
 
   self.penup()
   self.hideturtle()
-'''
+```
 
 I made the extend the turtle class by coded the TurtleExtension class. At first time, I forgot to add turtle.Turtle in the class argument. After debuging and researching I realised my mistake and added that part.
 
