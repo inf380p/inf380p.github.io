@@ -1,7 +1,7 @@
 ---
 layout: post
 author: inf380pcoder
-title: "Inf380pcoder's progress report and updated draft
+title: "Inf380pcoder's progress report and updated draft"
 ---
 
 
