@@ -15,7 +15,7 @@ Following can be a good plan to compelete my final project:
 - Create Agents to place inside the Maze
 - Set up the final goal (Location of the agent)
 
-## Creating the Inteface with Turtle Maze Game (Pathfinding)
+## Creating the Interface with Turtle Maze Game (Pathfinding)
 
 To create the interface with pathfinding, I need to generate a Maze first:
 
