@@ -3,55 +3,97 @@ layout: post
 author: elliott
 category: notes
 title: "Clickhack!"
-mode: Remote
+mode: In Person
 published: true
-inprogress: true
+inprogress: false
 ---
 
+# Announcements
 
-# Pair Programming Review
+* If your program "doesn't work", begin describing exactly how. As you write this down, you'll get new ideas and you might solve the problem
+* If your program often "doesn't work", perhaps you need to **Run** your code more often. 
+* If your posts aren't showing, don't worry. We'll clean them up soon.
 
-*"Pair programming consists of two programmers sharing a single workstation (one screen, keyboard and mouse among the pair). The programmer at the keyboard is usually called the "driver", the other, also actively involved in the programming task but focusing more on overall direction is the "navigator"; it is expected that the programmers swap roles every few minutes or so. - See more [here](http://guide.agilealliance.org/guide/pairing.html)"*
+# Vocab + Q&A
+* What should I make sure to cover?
 
-* Communication is key!  Think out loud.  Work your partner into your thought process.
-* Pair programming may feel slower.  That's natural.  Slow down and buy in to get the benefits.
-* The Navigator can't get anywhere without the driver.
-* The Driver doesn't know where to go without the navigator.
-* Tell your partner what you need from them.  Ask them for it!
 
-# Part I: Clicky turtlehack
+
+# Part I: Merge a partner's Clicky turtlehack
 
 You know the drill.  Pair up, merge up, confirm the file is visible on the site. If not, work together to determine why. Take a break once all partners' work is displaying on the site. Reconvene at the agreed-upon time.
 
-**If you have changes requested on your reflection pull request, address them during a break**
+**If you have changes requested on your other pull requests, address them during a break**
 
-# Clicky Turtle Discussion
+## Clicky Turtle Discussion
 
 First, let's review the [starter code]({{ site.baseurl }}/exercise/clicky-turtles.html).
 
-Then, in new pairs, play with and discuss each other's work!
+Then, in _new_ pairs, play with and discuss each other's work!
 
 
-**If you have changes requested on your reflection pull request, address them during a break**
+**If you have changes requested on your other pull requests, address them during a break**
 
-# Part II: Pair up & Make a Name For Yourself
 
-Our class website runs off of a config file.  Time to tell us who you are (or want to be known as).
 
-Reminder: your public activities in this class can be pseudonymous if you want them to be. You can, but don't have to, include personal information in your bio, display name, and links.
+# Part II: Peer Reviewing
 
-First: let's have a demo!
+Time to review a *different* partner's program.
 
-It's [here]({{ site.baseurl }}/exercise/make-a-name-for-yourself.html)
+Here are the github names that
 
-**If you have changes requested on your reflection pull request, address them during a break**
+~~~
+# Pairs
+Stuks : [Absent]
+Alm7468 : Mchakerautexas
+Englandham : Atutexas
+Manasvini2906 : Rabouti
+Zengjilie : Hyo9292
+Prakash-sa : Juliira
+Emmtm : Inf380pcoder
+Scdai9 : Nathanstern93
+Eros11on : Simon871028
+Rowan-loft : Jpmartinezutexas
+Pranitha vallabhaneni : Haley-triem
+Johncbmeyer : Shashwatj14
+Rosalindbradshaw : Greencouchpotato
+Iliekatz : Martsale
+Hannahmoutran : Unixenthusiast
+Jamesathrun => Amptex101
+Amptex101 => nemothefish260
+nemothefish260 => Jamesathrun
+~~~
 
-# Part III: Reflecting
 
-Let's discuss your reflections on the class so far.
+# Part III: Group up & Make a Name For Yourself
+
+(Moved to next class)
+
 
 # Looking Ahead
 
-We'll make app milestones for your blackjack or drawing app next time!  **Think** about them.  We'll discuss them and put them into a post during class.
+## Optional Feedback Form
 
-Also, read **Chapter 7** and **Chapter 9**. If you like, get started on the **Chapter 7** exercises on Trinket. The next class notes have some good information on lists of lists that will help you.
+On the materials page or at [this link](https://docs.google.com/forms/d/e/1FAIpQLSczNMwnoX0ObUHGP1LcoB-UPmcheqaHfx668UUPWx4pWAggkw/viewform?usp=sf_link), for things you want me to know.
+
+## Return of the Textbook
+
+Textbook time! Chapter 6 is on **Loops**.
+
+This is a *definite* loop:
+
+~~~python
+for i in range(5):
+    print("This will definitely print 5 times.")
+~~~
+
+This is an *indefinite loop:
+
+~~~python
+import random
+while True:
+    if random.random() > 0.5:
+        break
+    else:
+        print("There's a 50% chance this will print each iteration of the loop ")
+~~~

@@ -45,6 +45,7 @@ be completed by the date and time listed.  Class notes are for your reference of
 {% comment %} Push them onto assignments in the correct order {% endcomment %}
 {% assign assignments = "" | split: "" %}
 {% assign class_dates = "" | split: "" %}
+{% comment %} `shift` is decending, `unshift` ascending {% endcomment %}
 {% for note in site.categories.notes %}
     {% assign class_dates = class_dates | unshift: note.date %}
 {% endfor %}
@@ -76,7 +77,7 @@ be completed by the date and time listed.  Class notes are for your reference of
     {% endfor %}
 {% endfor%}
 
-{% assign all_assignments = assignments  %}
+{% assign all_assignments = assignments | reverse %}
 
 <table role="main" aria-label="Assignments list">
 
@@ -129,7 +130,7 @@ be completed by the date and time listed.  Class notes are for your reference of
                 {% capture link %}{{ site.baseurl }}{{ post.url }}{% endcapture %}
                 {% assign external = false %}
             {% endif %}
-            <a href="{{ link }}" {% if external == true %} target="_blank"{% endif %}>{% if post.categories contains "notes" %} <b>{{ post.date | date: "%b %d" }} - {% endif %}{{ post.title }}{% if external == true %} &nbsp; <i class="fa fa-external-link" aria-hidden="true"></i> {% endif %} {% if post.categories contains "notes" %} </b> <span class="label round mode">{{ post.mode}}</span>{% endif %}</a>
+            <a href="{{ link }}" {% if external == true %} target="_blank"{% endif %}>{% if post.categories contains "notes" %} <b>{{ post.date | date: "%b %d" }} - {% endif %}{{ post.title }}{% if external == true %} &nbsp; <i class="fa fa-external-link" aria-hidden="true"></i> {% endif %} {% if post.categories contains "notes" %} </b>{% endif %} {% if post.categories contains "notes" and post.mode %}<span class="label round mode">{{ post.mode}}</span>{% endif %}</a>
         </td>
         <td>
             {% if post.categories contains "notes"%}

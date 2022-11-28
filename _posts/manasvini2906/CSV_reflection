@@ -1,0 +1,60 @@
+---
+layout: post
+author: manasvini2906
+title: "Manasvini's CSV and Reflection"
+---
+
+#Reflection:
+
+*While* I completed the CSV To-Dos, I learned a lot. I have always struggled with defining functions, and I could feel the newly developed confidence this time. 
+Caring about indentation and dealing with every error I got because of it made me slight more detail oriented than I was before.
+
+
+```
+menu_dict = {
+  "1" : "Browse rows of data",
+  "2" : "Print specific row",
+  "3" : "Select columns to print",
+  "4" : "Change data file"
+}
+```
+Here I defined get_data to get the list of dictionaries and I got a lot of errors because of improper indentation. I have become better at catching my errors now!
+
+```
+def get_dict(filename):
+  # Get a list of dictionaries from CSV file
+  with open(filename) as file:
+    reader = csv.DictReader(file)
+    row_dicts_list = list(reader)
+  # Headers of the CSV are the keys of any row dictionary
+  # Get the keys from the first row
+  headers = row_dicts_list[0].keys()
+  
+  return row_dicts_list, headers
+  
+row_dicts_list, headers = get_dict(filename)
+```
+I kept getting a Name Error here! It was because I used "get_col" instead of "get_cols". Again, since I was familiar with what Name Error means, I could find the error easily.
+```
+  cols = []
+  def get_cols(row_dicts_list, headers):
+  # Let user choose which columns to print, or print them all
+  if interface.input_is_yes(f"File '{filename}' has {len(headers)} columns. Select which columns to print?\n", default = "y"):
+    for header in headers:
+      selected = interface.input_is_yes(f"Do you want {header} in simplified print view?", default = 'y')
+      if selected:
+        cols.append(header)
+  else:
+    print("All columns will be printed")
+    cols = headers
+  return columns
+columns_to_print = get_cols(row_dicts_list, headers)
+```
+
+
+This exercise made me realize that I can handle errors better now! I hope to reduce the number of errors I make though.
+
+Here are my trinkets:
+
+Week 1 trinket: <iframe src="https://trinket.io/embed/python3/c0f4f1ef9b" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+Week 2 trinket: <iframe src="https://trinket.io/embed/python3/c0f4f1ef9b" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
