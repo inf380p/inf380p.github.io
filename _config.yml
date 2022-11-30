@@ -396,5 +396,14 @@ authors:
     twitter:
     about: "Here's a little about zengjilie"
     
+    emmtm:
+    name: Emmalee clubb
+    prof: false
+    gravatar: 
+    website: "#"
+    github: emmtm
+    twitter:
+    about:  "Hi! I'm Emmalee!"
+    
 baseurl:
 url:
