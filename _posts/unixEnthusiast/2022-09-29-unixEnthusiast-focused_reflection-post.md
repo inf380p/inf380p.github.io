@@ -1,7 +1,7 @@
 ---
 layout: post
 author: unixEnthusiast
-title: "unixEnthusiast's first focused reflection"
+title: "Nikhil's first focused reflection"
 ---
 
 **Reflection**
