@@ -1,7 +1,7 @@
 ---
 layout: post
 author: haley-triem
-title: "Haley's First Focused Reflection"
+title: "Haley's First Reflection"
 ---
 
 # My reflection is interactive!
