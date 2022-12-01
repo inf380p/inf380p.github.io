@@ -23,6 +23,15 @@ I think my next move will be implement all the functions in this program.
 ### Roadblocks
 The file from the website (https://www.nbastuffer.com/)is in xlsx format. Therefore, I have to convert it to CSV manually. I found that when I read the file it did not show as expected. I will try to fix the issue.
 
+```
+0   NaN  ...                                              105.9                                                                                                                
+1   NaN  ...                                              103.8                                                                                                                
+2   NaN  ...                                              101.3                                                                                                                
+3   NaN  ...                                              110.9                                                                                                                
+4   NaN  ...                                              103.7                                                                                                                
+5   NaN  ...                                              105.0          
+```
+
 ### Revised Milestones
 - [x]  Find Dataset
 - [x]  Plan the interface (i.e. menu)
