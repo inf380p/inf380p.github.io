@@ -1,7 +1,7 @@
 ---
-layout: post 
+layout: post
 author: hannahmoutran
-title: "Hannah's reflection on the class so far."
+title: "Hannah Moutran's Reflection on the Class So Far"
 ---
 
 # Lightbulb Moment 
