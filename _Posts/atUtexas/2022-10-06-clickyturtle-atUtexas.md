@@ -2,9 +2,7 @@
 layout: post
 author: atUtexas
 title: "Mountain Reflection and My clicky Turtles"
-----
-
-
+---
 
 #New Projects
 I decided to create a mountain range. Surprisingly, this was an easy task for me. I understand now how coding relates to patterns, just like patters in music with certain etudes. I did use a loop for my triangles. I would like to also add a sky, sun and grass.  Here is my loop.
