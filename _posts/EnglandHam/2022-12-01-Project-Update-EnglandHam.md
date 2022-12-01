@@ -1,6 +1,6 @@
 ---
 layout: post
-author: <EnglandHam>
+author: EnglandHam
 title: "Soojin's Project Update"
 ---
   
