@@ -1,0 +1,101 @@
+---
+layout: post
+author: emmtm
+title: "Ems Final Project Update!"
+---
+
+I will be embedding this trinket:
+<iframe src="https://trinket.io/embed/python/8ed826c445" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+
+I have made a huge amount of progress on my project since last class! Since last clas I have:
+1. edited the reading template to use answers users inputted & also the randomized cards:
+
+```
+print(__main__.answer_list[0] + ", your past was represented by " + card + ", which is facing " + facing + "." " This tells me that your past relationships brought " + reading + " into your life.")
+```
+I have one of these for past, present, and future, and the outputs change a bit for if the user chooses a romantic, career, or personal reading.
+
+2. I inputted all of the cards & their readings into a dictionary, and using the randomized function the program generates both a random card and a random facing for the card suing this code:
+
+```
+card = random.choice(list(cards.card_names))
+facing = random.choice(list(cards.card_names[card]))
+reading = (cards.card_names[card][facing])
+
+```
+
+This part was fairly easy with some help from reading resources online, I use stackoverflow primarily to search for questions and ask my own.
+
+3. The most difficult part for me was then adding images into the program so that the program shows users the correct card and correct facing of the card based on the random.choice that was made.
+This took me a little while to figure out, I first created a secondary dictionary with keys that match the keys for the card names (so, "The Fool" would appear in both dictionaries) and then changed the
+values in the second dictionary to be the matching .jpeg files.
+
+My idea was that I could have the program parce the second dictionary for matches and then generate the matching card image into the background using screen.setup & screen.bgpic.
+
+I had some trouble getting it to work, some things I tried:
+
+```
+amesset = set(card_names)
+imageset = set(card_images)
+
+for name in namesset.intersection(card_images):
+print name, card_images[name]
+
+```
+and
+
+```
+card = random.choice(list(cards.card_names))
+facing = random.choice(list(cards.card_names[card]))
+key = card
+key2 = cardimages.key()
+value = cardimages.value()
+
+if key in key2:
+print value
+```
+
+Both of these options did generate a card, but it was random & different from the one that was being outputted in the text box. Through asking for help through stackoverflow I realized
+the problem lay in how I was calling the output, which was originally structured like this:
+
+```
+print(__main__.answer_list[0] + ", your past was represented by " + random.choice(list(cards.card_names)) + ", which is facing " + random.choice(list(cards.card_names[card])) + "." " This tells me that your past relationships brought " + (cards.card_names[card][facing]) + " into your life.")
+```
+
+This was calling the random fucntion twice instead of once, effectivley overwriting the original random choice. By changing it to what I have in point 1., this was fixed & worked perfectly!
+
+I wound up with code that looks like this:
+
+```
+image = images.card_images[card]
+ ```
+
+4. I then made it so that the card would show either facing up or down based on the randomly generated facing. To do this I assigned the image to a turtle instead of the background, and used if & elif statements.
+This looks like this & works awesome!
+
+```
+image = images.card_images[card]
+  screen.addshape(image)
+  if facing == "Up":
+    turtle.penup()
+    turtle.hideturtle()
+    turtle.goto(80,20)
+    turtle.rt(-90)
+    turtle.shape(image)
+    turtle.showturtle()
+    
+  elif facing == "Down":
+    turtle.penup()
+    turtle.hideturtle()
+    turtle.goto(80,20)
+    turtle.rt(90)
+    turtle.shape(image)
+    turtle.showturtle()
+```
+
+5. Just some general interface updates using os.system("clear") so that when questions are asked and tarot readings are given, the user isn't having to scrol down to see the most recent block of text and the overall interface looks cleaner and is easier to navigate.
+
+Now all I would like to achieve is trying to get the loop to start over once a reading is finished so that users can get more than one type of reading without having to answer all of the questions over again, which
+has proven difficult because there are a couple of different loops exisiting across more than one module for sake of organization.
+I also wanted to create a more in depth interface with click buttons instead of text input, but the program started to lag a bit when I did that & I am probably going to focus my energy on something else so that I don't compromise the best parts of the program function and overshadow what I originally wanted to achieve. 
