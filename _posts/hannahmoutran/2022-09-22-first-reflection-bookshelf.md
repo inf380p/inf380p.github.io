@@ -2,6 +2,7 @@
 layout: post 
 author: hannahmoutran
 title: "Hannah's reflection on the class so far."
+---
 
 # Lightbulb Moment 
 I think the real lightbulb has been realizing that, most of the time, the error is caused by a punctuation mark that is missing or a capital letter or an extra space that means that Python doesn’t recognize what I am referring to.  That said, there was also the misunderstanding that I had of how to speed up my turtle.
