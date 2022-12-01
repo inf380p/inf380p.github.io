@@ -1,6 +1,6 @@
 ---
 layout: post
-author: author
+author: rabouti
 title: "Cultural Immersion Meetup Writeup"
 ---
 
