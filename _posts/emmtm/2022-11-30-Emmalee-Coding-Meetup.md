@@ -4,6 +4,9 @@ author: emmtm
 title: "Emmalee's Coding Meetup Experience!"
 ---
 
+<b>My thoughts on my Coding Meetup Experience</b>
+
+
 I chose to attend the virtual Evening of Python Coding event for Austin on November 15th. I was informed this meeting was a bit different than the normal events hosted, as it combined both the Austin & DC python communities, and was focused heavily on a guest speaker talking through & demoing PyLint- a code analyser. Before I go more in depth about this experience I would like to get one of my largest thoughts about it out of the way. After attending an online python meetup, I pretty immediately identified the advantages of going to an in-person meetup as opposed to an online one. As a beginner coder attending an online meeting, at least to me, greatly reduced the benefits going to a meetup could have brought me.
 
 I lack a lot of context about what is going on in the Python community, and frankly had a lot of difficulty following along during parts of the meeting, understanding the significance of the topics talked about, and even just giving the experience full focus, as it’s much more difficult to be truly present for an online meeting. Chances to network, find and chat with people who have similar coding experience as me, ask questions when I felt lost or had an idea I wanted to chime in with were slim to none in the online setting. The things I wanted to get out of the meeting were reduced, and I felt more like I was attending a work conference for someone else's job. I don’t at all feel like this was the fault of the organisers, they obviously put a lot of thought into the content presented and discussed, but an online conference such as this was much more suited towards people who 1. Have been regularly attending these meetings and given more opportunities over time to develop relationships and rapport and 2. People with more coding experience and context overall.
