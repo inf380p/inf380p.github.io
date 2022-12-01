@@ -26,7 +26,7 @@ Once you and your partner feel your github PRs etc are cleaned up, *including PR
 
 After that's done, use the rest of class time to work on your final.
 
-
+{% include groups %}
 
 # Keep coding!
 
