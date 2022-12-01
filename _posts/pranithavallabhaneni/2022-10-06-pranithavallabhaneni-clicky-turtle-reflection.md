@@ -1,7 +1,7 @@
 ---
-layout :  post
-author :  pranithavallabhaneni
-title  : "Pranitha's clicky turtle reflection "
+layout: post
+author: pranithavallabhaneni
+title: "Pranitha's clicky turtle reflection "
 ---
 For this clicky turtle hack my thoughts was to create a different trapeziums by click and to change back ground colors by using arrow keys. 
 
