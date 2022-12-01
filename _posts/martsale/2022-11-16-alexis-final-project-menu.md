@@ -54,3 +54,8 @@ My menu code is included below:
 For next class, I want to at least have items 4-6 done. Ideally I'll get more done, but I'm not sure what the data will look like when it comes into python. 
 
 I think number 9, allowing filtering, will be a stretch goal. It will potentially be challenging to create the logic to filter down and have the user understand what is happening.
+
+## After Class Discussions
+After class today, I'm feeling pretty confident with my plan. One thing I might look at if I have more time would be including a data visualization package to make it more fancy. I know that's not a requirement, but it would make the project more fun for me. I'm excited for this project because using data from people I know makes it feel more sentimental and like I'm more connected to the data set. I'm looking forward to seeing what the actual statistics that I can pull out of the data are. 
+
+One area that I"m a bit more aprehensive in is getting the CSV exported and to read into data well. I would like to do most of the data import by hand instead of using a package like CSV or Panda, but I also realize that might not be feasible will my skill level and the scope I've set out to finish. I could reduce the scope, but I'm excited to use the funcitonality of the proram.
