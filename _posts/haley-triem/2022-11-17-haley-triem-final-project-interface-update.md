@@ -33,3 +33,93 @@ Other than that, the biggest thing I'm trying to figure out is how to slice up p
 ### Test Trinket:
 
 <iframe src="https://trinket.io/embed/python3/36f076f8dd" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+# ✏️ An Update After Class ✏️
+
+After discussing with my project partner, I reevaluated some of my goals. I realized that it's a little too ambitious to try to do natural language processing, so I might go off of a data menu as we did in our .CSV file project. Another thing my project partner put on my radar was that I probably need to use an inventory. He suggested making an inventory by using a list, and then appending different objects when the player "picked them up."
+
+The final piece of advice that my partner gave was not biting off more than I can chew. I had grand ideas about escape rooms and multiple endings, but my partner suggested to start by creating a main loop that the player can go through, and then adding on other branches later once I am successful with that main loop. In light of that, here are my goals:
+
+> 1. Create an inventory with ways for players to add to inventory
+> 2. Create a main menu that players can go through
+> 3. Map out conditionals that require players to puzzle their way through and get the right items in the right order
+> 4. Bonus: create a move counter that makes the player lose if they don't solve the puzzle quickly enough
+
+# ✏️ An Update From Notes I Took During Thanksgiving Break ✏️
+
+During Thanksgiving break, I tried to take a relaxed attitude with the project, so that I could get some work done but still have a break. This is where I started doing my mastermind mini-game: the player knows that the power is off, and they have to guess which lightswitches to turn on. This game was amazing practice for understanding lists and changing integers to strings and vice versa through `.append()`. Here's a bit of my progress:
+
+I created a binary key through randomly generated numbers and split the key with spaces and removed the extra space at the end:
+
+```python
+import random
+
+# function for creating a random binary string
+def master_key_string():
+  
+  # store string in master variable
+  master = ""
+  
+  # loop for range of four
+  for i in range(4):
+    master_binary = str(random.randint(0,1))
+    
+    master += (master_binary + " ")
+    
+  return(master)
+
+generated_key = master_key_string()
+stripped_key = generated_key.rstrip()
+
+# print(generated_key)
+print(stripped_key)
+split_key = stripped_key.split(" ")
+
+print(split_key)
+```
+Then, I converted the split key from 1's and 0's to X's and O's:
+
+```python
+letter_key = []
+for entry in split_key:
+  s = ""
+  conversion = {"0":"O", "1":"X"}
+  for i in entry:
+    s+=conversion[i]
+  letter_key.append(s)
+```
+
+Here is me struggling through trying to get the user's input of X's and O's to transform back to 1's and 0's:
+
+```python
+  mydict = {"O":"0", "X":"1"}
+  valueslist = list(mydict.values())
+  print(valueslist)
+```
+
+
+```python
+  mydict = {"O":"0", "X":"1"}
+  list_user_key = []
+  for key in mydict:
+    list_user_key.append(mydict[key])
+  print(list_user_key)
+```
+
+Finally, I realized I could just switch out individual letters instead of outright converting them:
+```python
+# This took me way too long to figure out
+
+  testlist = ["X","O","X","O"]
+  newlist = []
+  
+  for letter in testlist:
+    if "X" in letter:
+      newlist.append("1")
+    elif "O" in letter:
+      newlist.append("0")
+  
+  print("newlist",newlist)
+```
+
+I did all of this around 11/21-11/23, took a break for Thanksgiving, and then returned to clean up the code, make the code "compare" user input to the "master key," and add an inventory for the overall game. Those changes are noted in my next update :)
