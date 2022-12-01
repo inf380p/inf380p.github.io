@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Englandham
+author: EnglandHam
 title: "Soojin's first Clicky Turtle Test 1"
 ---
 
