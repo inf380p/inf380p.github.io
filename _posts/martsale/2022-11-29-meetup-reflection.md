@@ -1,7 +1,7 @@
 ---
 layout: post
 author: martsale
-title: "Alexis's Meetup Reflection:
+title: "Alexis's Meetup Reflection:"
 ---
 
 # My Python Meetup Experience
