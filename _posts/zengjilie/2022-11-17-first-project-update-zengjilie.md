@@ -1,7 +1,7 @@
 ---
 layout: post
 author: zengjilie
-title: " Final Project Interface"
+title: "Final Project Interface"
 ---
 ## Purposal Recap
 I want to make a simply command-line interface that displays information about the top 100 Youtube Channels.
