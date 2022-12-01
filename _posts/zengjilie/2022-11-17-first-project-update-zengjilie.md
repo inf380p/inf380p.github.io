@@ -18,9 +18,9 @@ I want to make a simply command-line interface that displays information about t
 [ ] Build command-line user interface
 
 ## Setbacks/Difficulties
-- It's pretty tricky and time-consuming to figure out the right reguar expression to use during the process
+- It's pretty tricky and time-consuming to figure out the right regular expression to use during the process
 - I need to learn some concepts of web development, such as css styles and block elements like div and span
-- Setup the python environment is also pretty hard for me, I need to learn how to use Mac terminal commands like `homebrew`
+- Setup the python environment is also pretty hard for me, I need to learn how to use Mac terminal commands like `homebrew` and `pip` to install the right python environment and packages
 
 ## Demo
 <iframe src="https://trinket.io/embed/python/6bcd598092" width="100%" height="365" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
