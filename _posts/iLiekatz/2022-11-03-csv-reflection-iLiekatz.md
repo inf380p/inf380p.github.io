@@ -4,8 +4,13 @@ author: iLiekatz
 title: "CSV File Reflection"
 ---
 
-Here is my program after week one: <iframe src="https://trinket.io/embed/python3/43e24c2c15" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-Here is my final program after week two: <iframe src="https://trinket.io/embed/python3/769d1e0410" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+Here is my program after week one: 
+
+<iframe src="https://trinket.io/embed/python3/43e24c2c15" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+Here is my final program after week two: 
+
+<iframe src="https://trinket.io/embed/python3/769d1e0410" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 My program from my last focused reflection ended up not working, and I had to spend a lot of time figuring out why and how to fix it. I put in a lot of work on my own, and got super excited when I had a finished program of what I intended to do! That excitement from that program had me on fire in a way coming into this CSV program. 
 ## Week One
