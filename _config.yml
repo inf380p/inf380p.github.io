@@ -72,7 +72,15 @@ authors:
     twitter: hauspoor
     about:  "Elliott Hauser is an Assistant Professor at the UT Austin iSchool.  He's hacking education as one of the cofounders of Trinket.io."
 
-
+  hannahmoutran:
+    name: Hannah Moutran
+    prof: false
+    gravatar: 
+    website: 
+    github: hannahmoutran
+    twitter: 
+    about:  "Hannah Moutran is a first year graduate student at UT's iSchool."
+    
   tommytestertwo:
     name: Tommy Tester
     prof: false
@@ -81,17 +89,330 @@ authors:
     github: tommytestertwo
     twitter:
     about: "Testin' course websites since 2014."
-   
-    
+
   nathanstern93:
-    nathan: Nathan Stern
+    name: Nathan Stern
     prof: false
     gravatar:
     website:
     github: nathanstern93
     twitter:
     about: "Nathan is a dual degree student in MSIS and MGPS."
-    
 
+  unixEnthusiast:
+    name: Nikhil Singh
+    prof: false
+    gravatar:
+    website: "https://en.m.wikipedia.org/wiki/Alan_Turing"
+    github: unixEnthusiast
+    twitter: 
+    about: "Passing some time.. writing some code..."
+    
+  mchakerautexas:
+    name: Mufaddal Chakera
+    prof: false
+    gravatar:
+    website: "https://linuxtorvalds.com/"
+    github: mchakerautexas
+    twitter:
+    about: "Learning how to code here!"
+
+  alm7468:
+    name: April Martin
+    prof: false
+    gravatar:
+    website: "#"
+    github: alm7468
+    twitter:
+    about: "April Martin is a MSIS student focusing on physical and digital preservation in libraries, archives, and museums, at the UT Austin iSchool."
+    
+  amptex101:
+    name: amptex101
+    prof: false
+    gravatar:
+    website: "#"
+    github: amptex101
+    twitter:
+    about: "Here's a little about amptex101"
+    
+  atUtexas:
+    name: atUtexas
+    prof: false
+    gravatar:
+    website: "#"
+    github: atUtexas
+    twitter:
+    about: "Here's a little about atUtexas"
+    
+  emmtm:
+    name: emmtm
+    prof: false
+    gravatar:
+    website: "#"
+    github: emmtm
+    twitter:
+    about: "Here's a little about emmtm"
+    
+  EnglandHam:
+    name: EnglandHam
+    prof: false
+    gravatar:
+    website: "#"
+    github: EnglandHam
+    twitter:
+    about: "Here's a little about EnglandHam"
+    
+  Eros11on:
+    name: Eros11on
+    prof: false
+    gravatar:
+    website: "https://www.linkedin.com/in/zheng-zhong-20205024a/"
+    github: Eros11on
+    twitter:
+    about: "I'm a first year grad student at School of Information focusing on software development."
+    
+  greencouchpotato:
+    name: Jyotsna Vempati
+    prof: false
+    gravatar:
+    website: "linkedin.com/in/jyotsnavempati"
+    github: greencouchpotato
+    twitter: na
+    about: "I'm a first year grad student at School of Information, UT. I'm specialising in UX Design."
+    
+  haley-triem:
+    name: haley-triem
+    prof: false
+    gravatar:
+    website: "#"
+    github: haley-triem
+    twitter:
+    about: "With a typing speed of 90wpm and 100% acruacy, Haley is a coding whiz."
+    
+  hannahmoutran:
+    name: hannahmoutran
+    prof: false
+    gravatar:
+    website: "#"
+    github: hannahmoutran
+    twitter:
+    about: "Here's a little about hannahmoutran"
+    
+  hyo9292:
+    name: hyo9292
+    prof: false
+    gravatar:
+    website: "#"
+    github: hyo9292
+    twitter:
+    about: "Here's a little about hyo9292"
+    
+  iLiekatz:
+    name: iLiekatz
+    prof: false
+    gravatar:
+    website: "#"
+    github: iLiekatz
+    twitter:
+    about: "Here's a little about iLiekatz"
+    
+  inf380pcoder:
+    name: inf380pcoder
+    prof: false
+    gravatar:
+    website: "#"
+    github: inf380pcoder
+    twitter:
+    about: "Here's a little about inf380pcoder"
+    
+  JamesAthrun:
+    name: JamesAthrun
+    prof: false
+    gravatar:
+    website: "#"
+    github: JamesAthrun
+    twitter:
+    about: "A second year master student in UT Austin"
+    
+  JohnCBMeyer:
+    name: John Meyer
+    prof: false
+    gravatar:
+    website: "#"
+    github: JohnCBMeyer
+    twitter:
+    about: "Second year MSIS student studying data analysis."
+    
+  jpmartinezutexas:
+    name: jpmartinezutexas
+    prof: false
+    gravatar:
+    website: "#"
+    github: jpmartinezutexas
+    twitter:
+    about: "Here's a little about jpmartinezutexas"
+    
+  JULIIRA:
+    name: JULIIRA
+    prof: false
+    gravatar:
+    website: "#"
+    github: JULIIRA
+    twitter:
+    about: "Here's a little about JULIIRA"
+    
+  manasvini2906:
+    name: manasvini2906
+    prof: false
+    gravatar:
+    website: "#"
+    github: manasvini2906
+    twitter:
+    about: "Here's a little about manasvini2906"
+    
+  martsale:
+    name: Alexis
+    prof: false
+    gravatar:
+    website: "www.linkedin.com/in/alexis-marts/"
+    github: martsale
+    twitter:
+    about: "Alexis is currently a masters student pursuing UX and Data studies. She's interested in learning how to make data more user friendly and accessible."
+    
+  mchakerautexas:
+    name: mchakerautexas
+    prof: false
+    gravatar:
+    website: "#"
+    github: mchakerautexas
+    twitter:
+    about: "Here's a little about mchakerautexas"
+    
+  nathanstern93:
+    name: nathanstern93
+    prof: false
+    gravatar:
+    website: "#"
+    github: nathanstern93
+    twitter:
+    about: "Here's a little about nathanstern93"
+    
+  nemothefish260:
+    name: nemothefish260
+    prof: false
+    gravatar:
+    website: "#"
+    github: nemothefish260
+    twitter:
+    about: "Here's a little about nemothefish260"
+    
+  Prakash-sa:
+    name: Prakash-sa
+    prof: false
+    gravatar:
+    website: "https://www.linkedin.com/in/sainiprakash525/"
+    github: Prakash-sa
+    twitter:
+    about: "Developer"
+    
+  pranithavallabhaneni:
+    name: Pranithavallabhaneni
+    prof: false
+    gravatar:
+    website: "https://www.linkedin.com/in/pranitha-vallabhaneni-496475220"
+    github: Pranithavallabhaneni
+    twitter:
+    about: "I'm a first year grad student at School of Information, UT Austin. I'm specializing in Health Informatics."
+    
+  rabouti:
+    name: rabouti
+    prof: false
+    gravatar:
+    website: "#"
+    github: rabouti
+    twitter:
+    about: "Here's a little about rabouti"
+    
+  RosalindBradshaw:
+    name: RosalindBradshaw
+    prof: false
+    gravatar:
+    website: "https://www.youtube.com/watch?v=LLFhKaqnWwk"
+    github: RosalindBradshaw
+    twitter:
+    about: "Second year grad student going into archival work."
+    
+  Rowan-Loft:
+    name: Rowan-Loft
+    prof: false
+    gravatar:
+    website: "https://github.com/Rowan-Loft"
+    github: Rowan-Loft
+    twitter:
+    about: "I'm a Second Year Grad with the I-School going into Library Sciences"
+    
+  scdai9:
+    name: Shih-Chieh Dai
+    prof: false
+    gravatar:
+    website: "https://www.linkedin.com/in/scdai"
+    github: scdai9
+    twitter:
+    about: "I am a second year MSIS student focusing on data science."
+    
+  shashwatj14:
+    name: shashwatj14
+    prof: false
+    gravatar:
+    website: "#"
+    github: shashwatj14
+    twitter:
+    about: "Here's a little about shashwatj14"
+    
+  simon871028:
+    name: simon871028
+    prof: false
+    gravatar:
+    website: "#"
+    github: simon871028
+    twitter:
+    about: "Here's a little about simon871028"
+    
+  Stuks:
+    name: Stuks
+    prof: false
+    gravatar:
+    website: "#"
+    github: Stuks
+    twitter:
+    about: "Here's a little about Stuks"
+    
+  unixEnthusiast:
+    name: unixEnthusiast
+    prof: false
+    gravatar:
+    website: "#"
+    github: unixEnthusiast
+    twitter:
+    about: "Here's a little about unixEnthusiast"
+    
+  zengjilie:
+    name: zengjilie
+    prof: false
+    gravatar:
+    website: "#"
+    github: zengjilie
+    twitter:
+    about: "Here's a little about zengjilie"
+    
+  emmtm:
+    name: Emmalee clubb
+    prof: false
+    gravatar: 
+    website: "#"
+    github: emmtm
+    twitter:
+    about:  "Hi! I'm Emmalee!"
+    
 baseurl:
 url:
