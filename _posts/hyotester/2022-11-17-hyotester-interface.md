@@ -5,8 +5,8 @@ title: "Hyo's Final Project Interface Update"
 ---
 # Final Project Interface Start
 
-For the final project, I'm planning to  to build game to find your route in the hospital. So, I'm exploring pathfinding code and practice code through exisitng grame: How to Make a Turtle Maze Game.
-I have been able to create an interface that allows user to find path from one point to another in order oder to arrive their final destination!
+For the final project, I'm planning to  to build game to find your route in the hospital. So, I'm exploring pathfinding code and practice code through existing game: How to Make a Turtle Maze Game.
+I have been able to create an interface that allows user to find path from one point to another in order to arrive their final destination!
 
 Following can be a good plan to compelete my final project:
 
