@@ -8,9 +8,8 @@ title: "CSV File Explorer and Reflection"
 https://trinket.io/python3/347f7a78a4
 
 **Reflection on the Writing Process**
-Firstly, I want to acknowledge Rosalind for showing me how to correctly format my Github file titles several weeks ago so that they get merged into the correct folders.
 
-Secondly, I think this CSV assignment took me the longest because I didn't realize that we had the option of submitting it without necessarily checking all the boxes.
+I think this CSV assignment took me the longest because I didn't realize that we had the option of submitting it without necessarily checking all the boxes.
 I was however able to accomplish most of them as you can see my checked list below:
 
 # TODOS
@@ -33,6 +32,18 @@ user to select between the two files and use the same 'row_dicts_list' for both.
 I was running into several errors until I came across a very basic explanation of the difference between variables and functions, which allowed me to manage the way
 I was naming variables or trying to change variables into functions more accurately. Going forward, I would like to revise my basics since I tend to forget concepts
 unless I have iterated them or at least seen someone visually execute them.
+
+A piece of code that particularly tripped me up but got resolved by revisiting names is given below:
+
+def get_row_dicts_list(filename):
+  with open(filename) as file:
+    reader = csv.DictReader(file)
+    row_dicts_list = list(reader)
+  return row_dicts_list
+row_dicts_list = get_row_dicts_list(filename)
+
+print(row_dicts_list)
+
 
 **Adapting the code for the ischools-messy.csv file**
 
