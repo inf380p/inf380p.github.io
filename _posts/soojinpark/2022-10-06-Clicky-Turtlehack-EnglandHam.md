@@ -1,10 +1,10 @@
 ---
 layout: post
-author: Englandham
+author: EnglandHam
 title: "Soojin's first Clicky Turtle Test 1"
 ---
 
-##Reflection 
+## Reflection 
 In the past, I used to feel overwhelmed when there were conditions within functions and branches within branches. I am a visual person so in my head, I try to draw a mental model of nesting branches and functions but fail to picture them. So I would try to write simplest codes that make more literal sense to me while compromising my ability to write codes more efficiently. With this homework, the past turtle videos, and the textbook, I am now able to slowly adjust myself to how programmers think and visualize helper functions and importing ".py" tabs. I liked how two turtle videos, especially the [Scope example](https://trinket.io/python/4b21944c2f), added basic code .py tabs you could import and how helper functions are used without throwing everything at us all at once 🙂. Seeing how helper functions work allowed me to understand its ability one at a time, giving me a chance to create something like this on my Clicky Turtle Starter:
 
 ```
