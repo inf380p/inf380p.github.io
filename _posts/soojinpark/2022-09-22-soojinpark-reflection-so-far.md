@@ -24,7 +24,7 @@ print(timeofday)
 
 After practicing some codes and reading the fundamentals of the terms, I know why the variable name is “var_string” and why “input” and “int” have different formatting. I felt confident explaining to anyone what is happening, line by line, and how all the lines work together to “print(timeofday)”. 
 
-# What’s still fuzzy for you? What will you do to make sure you can resolve your fuzziness?
+# What’s still fuzzy for you? What will you do to make sure you can resolve your fuzziness? 
 We have discussed how important it is to know how to print and debug. I am getting more familiar with the print function, but the whole concept of debugging and the necessary tools that help you spot an error faster go over my head. How do I spot an error efficiently? What exactly is a syntax error (to someone that is not familiar with coding, all the contents feel like syntax)? What if I use “try” and “except” in the wrong way, how will I ever know?
 This hesitation and questions are most likely to remain throughout the whole coding journey I have. However, I know I have to push beyond my comfort zone and learn these debugging skills so that I can utilize them when codes get more complicated and dependent on other lines in the program. Instead of erasing what I did or un-doing changes, I will assess the situation whenever I get an error and use debugging strategies rather than going back to my old habits. 
 
