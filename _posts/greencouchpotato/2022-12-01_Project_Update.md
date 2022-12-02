@@ -1,5 +1,5 @@
 ---
-layout: Post
+layout: post
 author: greencouchpotato
 title: "Final Project Update"
 ---
