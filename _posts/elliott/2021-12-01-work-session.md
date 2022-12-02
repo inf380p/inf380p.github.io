@@ -98,7 +98,7 @@ Online IDEs:
 * [Codeanywhere](https://codeanywhere.com/)
 * [Amazon Cloud9](https://aws.amazon.com/cloud9/)
 
-Python Notebooks:
+Python Notebooks
 * [Jupyter Notebooks](https://jupyter.org/)
 * [Google Collab](https://colab.research.google.com/)
 

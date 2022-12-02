@@ -1,7 +1,7 @@
 ---
 layout: post
 author: mchakerautexas
-title: "Mufaddal's csv reflections"
+title: Mufaddal's csv reflections
 ---
 
 ## First Reflection

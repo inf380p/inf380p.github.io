@@ -1,6 +1,6 @@
 ---
 layout: post
-author: EnglandHam
+author: soojinpark
 title: "My first focused reflection post!"
 ---
 
