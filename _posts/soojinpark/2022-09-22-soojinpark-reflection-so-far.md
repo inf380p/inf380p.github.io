@@ -1,6 +1,6 @@
 ---
 layout: post 
-author: soojinpark
+author: EnglandHam
 title: "soojinpark's reflection on the class so far"
 ---
 
