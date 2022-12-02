@@ -1,6 +1,6 @@
 ---
 layout: post
-author: mchakera
+author: mchakerautexas
 title: "Mufaddal's reflection on the class so far."
 ---
 
