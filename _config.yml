@@ -145,22 +145,22 @@ authors:
     about: "Here's a little about emmtm"
     
   EnglandHam:
-    name: EnglandHam
+    name: Soojin Park
     prof: false
     gravatar:
-    website: "#"
+    website: "https://www.linkedin.com/in/soojin-park-2011b0170/"
     github: EnglandHam
     twitter:
-    about: "Here's a little about EnglandHam"
+    about: "Hi everyone. I am a second year graduate student in the School of Information, pursuing UX/UI and familiarizing myself with Python!
     
   Eros11on:
     name: Eros11on
     prof: false
     gravatar:
-    website: "#"
+    website: "https://www.linkedin.com/in/zheng-zhong-20205024a/"
     github: Eros11on
     twitter:
-    about: "Here's a little about Eros11on"
+    about: "I'm a first year grad student at School of Information focusing on software development."
     
   greencouchpotato:
     name: Jyotsna Vempati
@@ -223,16 +223,16 @@ authors:
     website: "#"
     github: JamesAthrun
     twitter:
-    about: "Here's a little about JamesAthrun"
+    about: "A second year master student in UT Austin"
     
   JohnCBMeyer:
-    name: JohnCBMeyer
+    name: John Meyer
     prof: false
     gravatar:
     website: "#"
     github: JohnCBMeyer
     twitter:
-    about: "Here's a little about JohnCBMeyer"
+    about: "Second year MSIS student studying data analysis."
     
   jpmartinezutexas:
     name: jpmartinezutexas
@@ -262,13 +262,13 @@ authors:
     about: "Here's a little about manasvini2906"
     
   martsale:
-    name: martsale
+    name: Alexis
     prof: false
     gravatar:
-    website: "#"
+    website: "www.linkedin.com/in/alexis-marts/"
     github: martsale
     twitter:
-    about: "Here's a little about martsale"
+    about: "Alexis is currently a masters student pursuing UX and Data studies. She's interested in learning how to make data more user friendly and accessible."
     
   mchakerautexas:
     name: mchakerautexas
@@ -301,19 +301,19 @@ authors:
     name: Prakash-sa
     prof: false
     gravatar:
-    website: "#"
+    website: "https://www.linkedin.com/in/sainiprakash525/"
     github: Prakash-sa
     twitter:
-    about: "Here's a little about Prakash-sa"
+    about: "Developer"
     
-  Pranithavallabhaneni:
+  pranithavallabhaneni:
     name: Pranithavallabhaneni
     prof: false
     gravatar:
-    website: "#"
+    website: "https://www.linkedin.com/in/pranitha-vallabhaneni-496475220"
     github: Pranithavallabhaneni
     twitter:
-    about: "Here's a little about Pranithavallabhaneni"
+    about: "I'm a first year grad student at School of Information, UT Austin. I'm specializing in Health Informatics."
     
   rabouti:
     name: rabouti
@@ -343,13 +343,13 @@ authors:
     about: "I'm a Second Year Grad with the I-School going into Library Sciences"
     
   scdai9:
-    name: scdai9
+    name: Shih-Chieh Dai
     prof: false
     gravatar:
-    website: "#"
+    website: "https://www.linkedin.com/in/scdai"
     github: scdai9
     twitter:
-    about: "Here's a little about scdai9"
+    about: "I am a second year MSIS student focusing on data science."
     
   shashwatj14:
     name: shashwatj14
@@ -395,6 +395,25 @@ authors:
     github: zengjilie
     twitter:
     about: "Here's a little about zengjilie"
+    
+    emmtm:
+    name: Emmalee clubb
+    prof: false
+    gravatar: 
+    website: "#"
+    github: emmtm
+    twitter:
+    about:  "Hi! I'm Emmalee!"
+   
+  rabouti:
+    name: Rachel K Boutin
+    prof: false
+    gravatar:
+    website: https://www.linkedin.com/in/rachelkboutin/
+    github: rabouti
+    twitter:
+    about: "Rabouti - An artist with the mind of an analyst."
+   
     
 baseurl:
 url:
