@@ -404,6 +404,16 @@ authors:
     github: emmtm
     twitter:
     about:  "Hi! I'm Emmalee!"
+   
+  rabouti:
+    name: Rachel K Boutin
+    prof: false
+    gravatar:
+    website: https://www.linkedin.com/in/rachelkboutin/
+    github: rabouti
+    twitter:
+    about: "Rabouti - An artist with the mind of an analyst."
+   
     
 baseurl:
 url:
