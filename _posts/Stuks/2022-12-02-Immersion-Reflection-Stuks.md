@@ -1,12 +1,9 @@
 ---
 layout: post
 author: Stuks
-title: Immersion Response
+title: "Immersion Response"
 ---
 
-Frank Bross
-INF 380
-Reflection
 Cultural Immersion Meetup
 
 
