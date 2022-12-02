@@ -1,6 +1,6 @@
 ---
 layout: post
-author: EnglandHam
+author: Soojin Park
 title: "Soojin's revised CSV reflection"
 ---
 

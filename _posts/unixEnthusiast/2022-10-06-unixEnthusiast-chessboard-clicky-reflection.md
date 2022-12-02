@@ -1,7 +1,7 @@
 ---
  layout: post
  author: unixEnthusiast
- title: “Nikhil’s Chessboard and Reflection”
+ title: “unixEnthusiast’s Chessboard and Reflection”
 ---
 
 I liked the concept of the Hotter-Colder game suggested in the ideas topic and decided to give a little spin on it. I thought of adding a chessboard to the screen and then assigning a cell among them in random as the target. This can be accomplished by the random module I found in the python documentation as part of the internal implementation of the language by importing the 'random' module.
