@@ -1,0 +1,14 @@
+---
+layout: post
+author: Stuks
+tile: Clicky Hack Turtle reflection
+---
+
+This one was a little fun. I wanted to craft a game, one of the suggestions I saw in the title was a sort of 'treasure hunt'. This sounded like a really fun idea so I started to work on it. I wanted to see if I could make a hidden treasure. Originally when setting my points, I didn't know about the random option so I just wound up selecting two points on the map. But this meant everytimey ou played Tina would still go the new point. I changed it over to random though after I read about the option in one of our text book chapters.
+
+I wanted to try and make Tina change color and shape as she got closer to the prize. This worked decently well before I added in the random variable to the treasure location part of the code. After I did this though, I had to go through and adjust the varibles for when tina is close to the treasure. Originally I had it set more strictly but with the random input I choose to do a sort of range "like if it was within 5 - 20 blocks of the treasure, it was supposed to change color and shape". 
+
+Right now, she doesn't change shape, just goes to the place. I'm not too sure what I did incorrectly on this that broke it, although to be fair I am just grateful it still runs.
+
+
+<iframe src="https://trinket.io/embed/python/8f0d2e50e8" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
