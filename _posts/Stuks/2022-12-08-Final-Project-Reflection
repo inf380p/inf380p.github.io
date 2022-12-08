@@ -4,13 +4,15 @@ author: Stuks
 title: Stuks' final project!!
 ===
 
-Completed Final Project: NYC Zip Code/Gender Data Analysis:
+
+
+#Completed Final Project: NYC Zip Code/Gender Data Analysis:
 
 
 <iframe src="https://trinket.io/embed/python3/71c18aa9f3" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
-Reflection / Recap:
+##Reflection / Recap:
 
 So lets begin.
 
@@ -116,6 +118,8 @@ So to address this, I created a new function, ziprange(zc). Using the range func
 All I had to do left was slip the new ziprange into the Borough identifier and it was good to go! I also added some extra messages to help show whether or not there is data on the zip code as well as the borough.
 
 ----
+
+##Final Thoughts
 
 This class has been challenging. I struggle, a lot, with the basic logic of programing. Something about the indentations, the functions, : and the ;, it gets me very confused and frustrated. This final project also saw me nearly break down when I thought I had messed up. I need to work on channeling this frustration and anxiety into better outlets to not run into situations like that. I actually feel after I had my freak out and returned to the program with the knowledge that I need to chill, things got a lot easier. I tried to not worry about stupid mistakes like the wrong indenting and look at the bigger picture. I know my data analysis isn’t the most complex but I’m really proud of it. I honestly never thought I’d finish this project, let alone enjoy it by the end of it.  I also don’t think I could have made it through this class without the fantastic resources that are available out there for us all, w3schools and freecodecamp on youtube were great resources  that I could turn too when I was struggling with the text book. The text book was great, but sometimes working through problems in real time just works the best, which was one of my favorite things we did together as a class. I really felt I got the most out of those lessons when we actually sat down and worked through the problem together as opposed to just kind of showing what different things did. 
 
