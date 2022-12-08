@@ -32,7 +32,7 @@ screen.setworldcoordinates(-5, -5, 5, 5)
 Then I no longer need to use the accurate position to draw the chessboard. What I need to do is just to let the turtle go to the corresponding position on the coordinate axis I have created to start drawing the chessboard.
 I have added a csv file for users to choose what background they would like to use for the tic tac toe game. Instead of using a hard-coded dictionary, the reason why I choose to use csv file to finish my goal is that I hope the users can add whichever background they would like to in the game. It is very easy for users to add new background pictures. All they need to do is to upload a gif file to the library and then add a line with index and the picture name in the csv file. 
 
-'''
+```
 filename = "backgroundImg.csv"
 dict_from_csv = {}
 with open(filename, mode='r') as inp:
@@ -44,13 +44,13 @@ pic = dict_from_csv.get(mode)
 
 screen.bgpic(pic)
 screen.update()
-'''
+```
 For the menu part, I have used the template from the class. I have really learnt a lot from that part and as a result, I use that as a template and implement it into my code. I have created three menus corresponding to three different stages.
 The first menu is used to create the choice of background.
 The second menu is used to choose the game mode.
 The third menu is used to choose the level of the game if the user decides to play against the computer.
-'''
-	def get_menu_choice(choices_dict, prompt_str="Make a selection"):
+```
+def get_menu_choice(choices_dict, prompt_str="Make a selection"):
     assert all([isinstance(x, str) for x in choices_dict]), "Keys to choices_dict must be strings"
 
     valid_choices_list = list(choices_dict.keys())
@@ -68,7 +68,7 @@ The third menu is used to choose the level of the game if the user decides to pl
         user_choice = input(prompt_str)
 
     return user_choice
-'''
+```
 
 Then it comes to the most difficult part of the game: let the players play on the chess board. 
 
@@ -77,8 +77,8 @@ For the object of the chess board, I use a 2D list to record it. If the position
 For me, I think the mode of player versus player is comparably easy. The computer does not take part in the game itself. What a computer needs to do is just to judge whether one player has won the game or not. 
 
 The way to judge the winner of the game is rather simple. First, the computer needs to decide whether one has three chess pieces in a row.
-'''
-	def evaluate(b):
+```
+def evaluate(b):
     for row in range(3):
         if (b[row][0] == b[row][1] and b[row][1] == b[row][2]):
             return b[row][0]
@@ -93,18 +93,18 @@ The way to judge the winner of the game is rather simple. First, the computer ne
         return b[0][2]
 
     return 0
-'''
+```
 Another function is to judge whether there are still empty positions on the chess board.
-'''
+```
 def isMovesLeft(b):
     for i in range(3):
         for j in range(3):
             if (b[i][j] == 0):
                 return True
     return False
-'''
+```
 With these two functions computers can decide whether the game has ended.
-'''
+```
 def gameover(b):
     if (evaluate(b) != 0):
         return evaluate(b)
@@ -112,7 +112,7 @@ def gameover(b):
         return 0
     else:
         return 3
-'''
+```
 The output has four options.
 If the output is 0, it means that the game can continue.
 If the output is 1 or 2, it means that some player has won the game.
@@ -120,7 +120,7 @@ If the output is 3, it means that the game ends with a tie.
 
 
 Then I am able to construct the prototype of the game.
-'''
+```
 def play_pvp(x, y):
     global turn
     i = 3 - int(y + 5) // 2
@@ -146,7 +146,7 @@ def play_pvp(x, y):
     elif r == 3:
         print("Game over!", "Tie!")
         return
-'''
+```
 To construct the AI logic of the computer is the most important part in the project. I find this very challenging, but also very interesting. 
 I decided to divide my game level into two stages, easy and difficult, just like most of the other games.
 For the easy mode, I use the random module to let the computer automatically get the empty position and randomly place the chess.
@@ -156,7 +156,7 @@ One strategy is to follow the player’s intuition. The computer will first look
 The second strategy is called the minmax strategy. The computer will evaluate which move will benefit the most. This is a rather difficult task so I choose the first strategy.
 
 I set up a module called the best choice for the computer to get the position.
-'''
+```
 def getWinPoint(b, cur_player):
     position = [-1,-1]
     for row in range(3):
@@ -243,16 +243,16 @@ def findBestMove(board):
  
     bestMove = computer_round_random(board)
     return bestMove[0], bestMove[1]
-'''
+```
 
 I also extend a turtle class to let the turtle write a 'happy game' in the centre of the chessboard. 
 
-'''
+```
 class WordTurtle(turtle.Turtle):
     def welcome(self):
         self.color('cyan')
         self.write("Happy Game!", move=True,align='center',font=('Arial',55,'bold'))
-'''
+```
  
 ## Future Improvements:
 The background picture is not fit for the whole size of the background. In my original design, I think the picture should fit the size of the background and give the users a feeling of putting the chessboard in the background for them to play. However, it turns out that the size of the picture differs from each other, and I’m not able to set the background size of the turtle screen.
