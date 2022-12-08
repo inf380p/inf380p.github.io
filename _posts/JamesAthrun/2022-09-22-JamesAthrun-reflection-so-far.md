@@ -16,7 +16,7 @@ I think the best code-learning strategy is to write code on my own. Knowing whic
 # Interaction Code
 <iframe src="https://trinket.io/embed/python/464cc7b37b" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-```python
+```
 ## code example
 def draw_rainbow(colors, num):
   for x in range(num):
@@ -24,3 +24,4 @@ def draw_rainbow(colors, num):
     width(x / 5 + 1)
     forward(x)
     left(20)
+```
