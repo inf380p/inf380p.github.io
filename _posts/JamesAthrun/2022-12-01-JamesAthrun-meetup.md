@@ -1,3 +1,9 @@
+---
+layout: post
+author: JamesAthrun
+title: "JamesAthrun's Meet-Up Reflection"
+---
+
 #Coding Meetup Experience
 
 ##How did it go?
