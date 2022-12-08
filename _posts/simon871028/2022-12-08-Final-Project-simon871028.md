@@ -119,9 +119,11 @@ I will illustrate my approach by describing how I completed evert milestone.
   ## Reflection
   
   It's very cool to get to utilize what we've learned from class to build up this project. While dealing with the project, I accidentally closed the tab for trinket when I almost finished it.
-  Which is extremely frustrating , but I took it as a great opportunity to gain more hands on experience by code it from scratch once again.
+  Which is extremely frustrating , but I took it as a great opportunity to gain more hands on experience by code it from scratch once again. I was initially more familiar with **plotly** instead of **matplotlib**, however, trinket only supports **matplotlib** which forced me to use it. It's also something valuable to me since if it were not for the project, I wouldn’t have the chance to get to know the library and gain familiarity with it.
   
   Working on a project that suits my interest in always fun, I am glad that I get to do a project for class using the data from NBA and create meaningful insight.
+  
+  If I had more time, I would want to try and create a search function that enable user to search for specific stats or players. I would want to provide more advanced stats and chart as well. Maybe doing something for major leagur sports such as MLB, NFL or even college football would be fun too.
   
   Thank you Professor and all the classmates that have helped me throughout the way. I have been enjoying this class and learned a lot.
  
