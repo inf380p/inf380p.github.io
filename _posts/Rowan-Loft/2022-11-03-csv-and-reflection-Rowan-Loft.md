@@ -4,7 +4,7 @@ author: Rowan-Loft
 title: Rowan-Loft csv and Reflection
 ---
 
-##Initial Reflection
+## Initial Reflection
 
 During my initial approach to the csv code, my main confusion came not in the code itself, but the csv sheets **ischools-clean.csv** and **ischools-messy.csv**. One of the lingering issues that I've had with our class is word choice. For some methods, or variables, or other, what makes sense to someone with experience in python's language makes little sense to me since I'm not used to seeing some of the wording we use used in these ways. With the csv files, the confusion came from my thinking that the **messy.csv** was much easier to read than the **clean.csv**, even though it contains information that doesn't have context written in. After speaking with someone who knows much more about coding, I realized that the reasoning is because I have to define what is "messy" or "clean" from the perspective of the code and computer that will be reading the code and displaying it, not me. I will elaborate more on why I think this in my next reflection.
 
@@ -23,7 +23,7 @@ Here is my initial trinket:
 
 <iframe src="https://trinket.io/embed/python3/6d64fdf41c" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-##Expanded Reflection
+## Expanded Reflection
 
 During my second week, I re-approached the "clean" and "messy" csv's to try and make **ischools-messy.csv** readable for the user. In order to do this, I first had to talk with someone with more experience than myself about what made this file messy. What really gave me my lightbult moment was realizing that there were "invisible" newlines, only 3 headers: `University`, `Location`, and `Membership`, and more information that what would apply to just those three headings, which would soon become: `Website`, `School/Unit`, and `Region` after using the *regular expression* suite to do some cleaning. To the best of my understanding, *regular expression* is used to match and extract targeted strings.
 
