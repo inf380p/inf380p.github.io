@@ -368,10 +368,13 @@ The next step to make a bouncing ball is to detect when the ball hits/collides w
 ```
  
 ## The most challenging part and further direction
-I’ve struggled with adding gif(custom image) into turtle, I used all methods in order to add gif but I couldn't. I will continue and find solution.
+I’ve struggled with adding gif(custom image) into turtle, I used all methods in order to add gif but I couldn't see gif when I combine all functions in the turtle. I will continue and find solution.
 Also, I've tried to add having a constantly available help dialog during play Ping Pong. I wroted many forms to allow the user to learn 
 what they can do in the program at any time. However, when I add external file into main.py, it has error and couldn't play game. 
  
+#### I can add only gif as backgroynd and then I can see gif...
+
+<iframe src="https://trinket.io/embed/pygame/45565da3ac" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
  
 ## Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aDV6QPtHT_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
