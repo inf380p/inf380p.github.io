@@ -11,7 +11,7 @@ title: "Allison's Final Project post!"
 #####There are a lot of individual CSV files on this website. I chose the one specific to alleged demonic pacts – this is called WDB_DemonicPact.csv. This particular dataset categorizes demonic pacts by type (an “Anti-baptism” pact as opposed to a “new name” pact). This dataset might seem silly now, but these people and the allegations they faced really existed. 
 #####The link below contains my final project. Treat it nicely! 
 
-https://trinket.io/python3/164a1e5ca4
+https://trinket.io/python3/e2118fda35
 
 ####Getting Into It 
 
