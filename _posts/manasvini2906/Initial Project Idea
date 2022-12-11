@@ -1,0 +1,23 @@
+---
+layout: post
+author: manasvini2905
+title: Initial Idea for Project
+---
+
+#ProjectIdea <br>
+
+I am intending to choose the **data analysis** path for my project since it aligns with my interest in becoming a data scientist. I would love to put my knowledge to a noble cause like climate change. 
+I would source environmental data and learn on my way to explore and derive insights from it.
+
+Methodology:
+
+Clean and preprocess the data, and perform exploratory analysis on it. Since I also have an interest in statistics, I would try to understand regression models and try to run it on my data.
+
+To do:
+
+* Source reliable data
+* Study about the columns and understand the data
+* Visualize the data and derive insights
+* Run regression model (if possible)
+
+The project would be done on python, using it's packages like seaborn and pandas.

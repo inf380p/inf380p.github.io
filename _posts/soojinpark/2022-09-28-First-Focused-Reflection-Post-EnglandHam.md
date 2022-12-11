@@ -1,10 +1,10 @@
 ---
 layout: post
-author: soojinpark
+author: EnglandHam
 title: "My first focused reflection post!"
 ---
 
-##Soojin's Focused Reflection Post 
+## Soojin's Focused Reflection Post 
 
 As someone pursuing a user experience research route, I was often told that knowledge of coding is not necessary– that I could work on other UX related skills to boost my resume. Someone even told me: 
 

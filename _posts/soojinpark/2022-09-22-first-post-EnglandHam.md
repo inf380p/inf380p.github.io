@@ -1,6 +1,6 @@
 ---
 layout: post
-author: soojinpark
+author: EnglandHam
 title: "soojinpark's first post!"
 ---
 
