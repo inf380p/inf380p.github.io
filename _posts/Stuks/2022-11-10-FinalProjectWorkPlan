@@ -1,0 +1,9 @@
+---
+layout: post
+author: Stuks
+title: "Final Project work plan"
+---
+
+# Project Planning groundwork
+
+For the final project I'm going to be doing a data processing project. I oringally joined this class hoping to get more information on coding that could be useful in a digital archives setting. I would like to create an interface that can scan through a .csv and pull out certain kinds of useful data that could be redacted in an archival setting. One example, going through a bunch of emails and finding certain email address to redact. I'm not sure if this is practical, well I guess it is, but I'm currently trying to find a data set that works with that kind of idea. I'm thinking I may need to chooose a different kind of concept, finding a bunch of random e-mails and putting them in a CSV might be a bit too daunting. Another idea could be to create a tool that can scan through some data sets to highlight certain information that could be useful in metadata tags, like maybe look for certain locatiosn or dates? that might be too broad. Once I find a data set I am happy with, I think I can push this idea further, but right now that is where I'm thinking of going: I want to be able to pull out certain important factors from an archival set of data that can either be redacted or used as sort of tags as if I was upload this data sheet to a digital reposoity.
