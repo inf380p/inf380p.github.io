@@ -247,10 +247,10 @@ authors:
     name: jpmartinezutexas
     prof: false
     gravatar:
-    website: "#"
+    website: "https://johnpaulmartinez1998.wordpress.com/"
     github: jpmartinezutexas
-    twitter:
-    about: "Here's a little about jpmartinezutexas"
+    twitter: n/a
+    about: "Hi, this is JP. I am interested in UX Design, UX Research, and Game/VR Development."
     
   JULIIRA:
     name: JULIIRA
@@ -404,6 +404,15 @@ authors:
     github: zengjilie
     twitter:
     about: "Here's a little about zengjilie"
+   
+   nemothefish260:
+    name: nemothefish260
+    prof: false
+    gravatar:
+    website: 
+    github: nemothefish260
+    twitter:
+    about: "Hi! I am an ex-iterature major who is transitioning user design and research!"
     
     emmtm:
     name: Emmalee clubb
