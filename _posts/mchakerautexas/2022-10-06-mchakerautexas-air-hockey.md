@@ -1,7 +1,7 @@
 ---
 layout: post
 author: mchakerautexas
-title: “Muffu's Air Hockey and Reflection”
+title: "Muffu's Air Hockey and Reflection"
 ---
 
 For this week's exercise, I took on the challenge of creating a game with Turtle(A big reason I am in this class is to learn game development eventually). This turned out to be a much more complicated thing to do, I ran into many hurdles that I will list below, but I was able to come up with a game after A LOT of research and time spent.

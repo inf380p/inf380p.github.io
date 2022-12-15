@@ -4,46 +4,42 @@ author: Prakash-sa
 title: "Prakash's reflection on the class so far."
 ---
 
-# Problem statement
+**Reflection**
 
-Given an integer x, return true if x is palindrome integer. An integer is a palindrome when it reads the same backward as forward. 
-For example, 121 is a palindrome while 123 is not.
+In this reflection, I have made the new python file shapes.py and added the functions of square, triangle, pentagon, polygon and random polygon. I used the concept of generating random number and importing the functions from different file that was taught in the class. Now I got good grasp of that concept.
 
-I implemented the function of above solution in python.
 
+Below code generate the random number from 0 to 360 with the step of 1
 ```
-def isPalindrome(x: int) -> bool:
-  if x < 0:
-    return False
-  return str(x) == str(x)[::-1]
-  
-  
-print("Enter the number to check whether it is Plaindrome or not")
-num=int(input())
-print("Is the number palindrome: ",isPalindrome(num))
+# get randome integer from 0 to 360 with the step of 1
+rand = random.randrange(0, 360, 1)
 ```
 
-You have to enter the number when the program run and it will give the output whether the number is palindrome or not.
+Below code will draw the random polygon with random color. I have implemented the random length and random lines formula. It will pick up the random color from the colors list. We can also give the x and y coordinate to the function. Then it will draw the random polygon based on the count of random lines.
 
-## Example 1:
+```
+def draw_fully_random(turtle, rand, x = 0, y = 0):
+  rand_length = (rand % 10 + 2) * 10
+  rand_lines = rand // 3
+  colors = ['blue', 'black', 'red', 'green']
+  turtle.color(colors[(rand % 5) - 1])
+  turtle.penup()
+  turtle.shape("turtle")
+  turtle.goto(x,y)
+  turtle.pendown()
+  for i in range(rand_lines):
+    turtle.forward(rand_length)
+    if rand % 2 == 0:
+      turtle.right(rand)
+    else:
+      turtle.left(rand)
+  turtle.setheading(0)
+  return rand
+```
 
-Input: x = 121
-Output: true
-Explanation: 121 reads as 121 from left to right and from right to left.
-
-## Example 2:
-
-Input: x = -121
-Output: false
-Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
-Example 3:
-
-## Input: x = 10
-Output: false
-Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
-
+This exercise help me to get the better understanding of importing functions from other files, write neat, readable and understandable code and got the good grasp of using turtle library.
 
 # My functional trinket
 An iframe of my functional trinket can be found below.
 
-<iframe src="https://trinket.io/embed/python/cdbbdec50e" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/1e7203d8d0" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

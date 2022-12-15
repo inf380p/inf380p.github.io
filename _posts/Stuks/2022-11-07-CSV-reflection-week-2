@@ -1,0 +1,12 @@
+---
+layout: post
+author: Stuks
+title: Week 2 CSV reflection
+---
+
+The class really helped me understand a bit of what I was confused about. The original issue I ran into with the endless loop was a fault on my end and had to do with the way I assigned one of the else commands on the collumns to print. It felt kind of nice figuring that out, although one of the issues I have beendealing with is the frustration. Finding that a : instead of a ; or peroid in the wrong spot will mess u your entire code makes this work almost impossible for me to do.
+
+Some of the issues I ran into during the second week were, once again, a sort of over complication of things. I kept thinking I needed to various else or elif commands when assigining collumns to print. I was trying to get it to do way too much. I also had no idea what dicts were, we had discussed them abit in class but it was a challenge. I didn't reliase they were basically just a different kind of verison of a list but that tripped me up a bit too. I had to once again have my friend take a look at the code to see what I was doing wrong...
+
+
+<iframe src="https://trinket.io/embed/python3/3fffc41dce" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

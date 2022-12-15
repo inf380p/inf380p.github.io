@@ -1,11 +1,11 @@
 
 ---
 layout: post
-author: Feng I hsieh
+author: simon871028
 title: "Feng's first focused reflection"
 ---
 
-** Reflection
+**Reflection**
 
 I have been enjoying this course so far. 
 Mr. Hauser has used a very interesting and interactive way to introduce us into the world of Python.

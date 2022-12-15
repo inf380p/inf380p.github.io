@@ -12,6 +12,7 @@ mode: In Person
 * We're beginning final projects today. Your first decision: Turtle or Text? This decision is entirely subjective: which is more engaging to you? You'll use the same language features of Python either way.
 * I'm going to focus on introducing Class extension and helping you get an initial project plan today. *If you have Dictionaries questions that we don't get to today, save them*. We'll have plenty of time to review as you work on final projects the rest of the semester.
 * Don't Panic.
+* **Classhack assignment is now Extra Credit, and due next week**. Highly recommended for Turtlers, regular recommended for everyone else.
 
 # Q&A
 
