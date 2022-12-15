@@ -8,6 +8,7 @@ While I was working on this code, I noticed the progress I had made so far and w
 I am finally getting the hang of loops, indentations and functions. However, I still have room for improvement as I faced
 the following issues in the first code:
 
+
 <iframe src="https://trinket.io/embed/python3/56c2ee200d" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Most of the issues were so simple that when I finally found the solution, I had to take a break to cope. Here are some of the major
