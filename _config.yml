@@ -249,7 +249,7 @@ authors:
     gravatar:
     website: "https://johnpaulmartinez1998.wordpress.com/"
     github: jpmartinezutexas
-    twitter: n/a
+    twitter: 
     about: "Hi, this is JP. I am interested in UX Design, UX Research, and Game/VR Development."
     
   JULIIRA:
@@ -405,7 +405,7 @@ authors:
     twitter:
     about: "Here's a little about zengjilie"
    
-   nemothefish260:
+  nemothefish260:
     name: nemothefish260
     prof: false
     gravatar:
@@ -414,7 +414,7 @@ authors:
     twitter:
     about: "Hi! I am an ex-iterature major who is transitioning user design and research!"
     
-    emmtm:
+  emmtm:
     name: Emmalee clubb
     prof: false
     gravatar: 
@@ -427,7 +427,7 @@ authors:
     name: rabouti
     prof: false
     gravatar:
-    website: https://www.linkedin.com/in/rachelkboutin/
+    website: "https://www.linkedin.com/in/rachelkboutin/"
     github: rabouti
     twitter:
     about: "Rabouti - An artist with the mind of an analyst."
